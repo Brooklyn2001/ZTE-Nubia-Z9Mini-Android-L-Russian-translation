@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="aspect" format="string" />
+    <attr name="btntextArray" format="reference" />
+    <attr name="btnCount" format="integer" />
+    <attr name="showSelectAll" format="boolean" />
+    <attr name="swipeOpenOnLongPress" format="boolean" />
+    <attr name="swipeAnimationTime" format="integer" />
+    <attr name="swipeOffsetLeft" format="dimension" />
+    <attr name="swipeOffsetRight" format="dimension" />
+    <attr name="swipeCloseAllItemsWhenMoveList" format="boolean" />
+    <attr name="swipeFrontView" format="reference" />
+    <attr name="swipeBackView" format="reference" />
+    <attr name="swipeMode">
+        <enum name="none" value="0" />
+        <enum name="both" value="1" />
+        <enum name="right" value="2" />
+        <enum name="left" value="3" />
+    </attr>
+    <attr name="swipeActionLeft">
+        <enum name="reveal" value="0" />
+        <enum name="dismiss" value="1" />
+        <enum name="choice" value="2" />
+    </attr>
+    <attr name="swipeActionRight">
+        <enum name="reveal" value="0" />
+        <enum name="dismiss" value="1" />
+        <enum name="choice" value="2" />
+    </attr>
+    <attr name="swipeDrawableChecked" format="reference" />
+    <attr name="swipeDrawableUnchecked" format="reference" />
+    <attr name="switchStyle" format="reference" />
+    <attr name="trackOn" format="reference" />
+    <attr name="trackOff" format="reference" />
+    <attr name="switchMinHeight" format="dimension" />
+    <attr name="thumb" format="reference" />
+    <attr name="track" format="reference" />
+    <attr name="textOn" format="string" />
+    <attr name="textOff" format="string" />
+    <attr name="thumbTextPadding" format="dimension" />
+    <attr name="switchTextAppearance" format="reference" />
+    <attr name="switchMinWidth" format="dimension" />
+    <attr name="switchPadding" format="dimension" />
+    <attr name="textColor" format="reference|color" />
+    <attr name="textSize" format="dimension" />
+    <attr name="textStyle">
+        <flag name="normal" value="0x00000000" />
+        <flag name="bold" value="0x00000001" />
+        <flag name="italic" value="0x00000002" />
+    </attr>
+    <attr name="typeface">
+        <enum name="normal" value="0" />
+        <enum name="sans" value="1" />
+        <enum name="serif" value="2" />
+        <enum name="monospace" value="3" />
+    </attr>
+    <attr name="textColorHighlight" format="reference|color" />
+    <attr name="textColorHint" format="reference|color" />
+    <attr name="textColorLink" format="reference|color" />
+    <attr name="textAllCaps" format="boolean" />
+    <attr name="circle_progress" format="integer" />
+    <attr name="circle_max" format="integer" />
+    <attr name="circle_unfinished_color" format="color" />
+    <attr name="circle_finished_color" format="color" />
+    <attr name="circle_text_size" format="dimension" />
+    <attr name="circle_text_color" format="color" />
+    <attr name="circle_prefix_text" format="string" />
+    <attr name="circle_suffix_text" format="string" />
+    <attr name="donut_progress" format="integer" />
+    <attr name="donut_max" format="integer" />
+    <attr name="donut_unfinished_color" format="color" />
+    <attr name="donut_finished_color" format="color" />
+    <attr name="donut_finished_stroke_width" format="dimension" />
+    <attr name="donut_unfinished_stroke_width" format="dimension" />
+    <attr name="donut_text_size" format="dimension" />
+    <attr name="donut_text_color" format="color" />
+    <attr name="donut_prefix_text" format="string" />
+    <attr name="donut_suffix_text" format="string" />
+    <attr name="donut_background_color" format="color" />
+    <attr name="arc_progress" format="integer" />
+    <attr name="arc_angle" format="float" />
+    <attr name="arc_stroke_width" format="dimension" />
+    <attr name="arc_max" format="integer" />
+    <attr name="arc_unfinished_color" format="color" />
+    <attr name="arc_finished_color" format="color" />
+    <attr name="arc_text_size" format="dimension" />
+    <attr name="arc_text_color" format="color" />
+    <attr name="arc_suffix_text" format="string" />
+    <attr name="arc_suffix_text_size" format="dimension" />
+    <attr name="arc_suffix_text_padding" format="dimension" />
+    <attr name="arc_bottom_text" format="string" />
+    <attr name="arc_bottom_text_size" format="dimension" />
+    <attr name="circleProgressStyle" format="reference" />
+    <attr name="donutProgressStyle" format="reference" />
+    <attr name="arcProgressStyle" format="reference" />
+    <attr name="max" format="integer" />
+    <attr name="fill" format="boolean" />
+    <attr name="Paint_Width" format="integer" />
+    <attr name="Paint_Color" format="integer" />
+    <attr name="Inside_Interval" format="integer" />
+    <attr name="Inside_Interval2" format="integer" />
+    <attr name="cornerRadius" format="dimension" />
+    <attr name="scrollBarPanel" format="reference" />
+    <attr name="scrollBarPanelInAnimation" format="reference" />
+    <attr name="scrollBarPanelOutAnimation" format="reference" />
+    <attr name="textAppearanceExtraSmall" format="reference" />
+    <attr name="nubiaTabItemWidth" format="dimension" />
+    <attr name="nubiaTabIndicatorMarginTop" format="dimension" />
+    <attr name="isOn" format="boolean" />
+    <attr name="switchType" format="string" />
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SingleHandPageSet</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_to_single">欢迎进入单手模式</string>
+    <string name="welcome_to_single2">点击屏幕为您测试最合适你的单手模式</string>
+    <string name="test_single1">放置拇指</string>
+    <string name="test_single2">单手握持手机，伸直拇指</string>
+    <string name="test_single3">平放在屏幕上画一段圆弧</string>
+    <string name="test_single_invalid">平放在屏幕上画一段圆弧</string>
+    <string name="show_single">最适合您的单手小屏</string>
+    <string name="try_more">再试一次</string>
+    <string name="begin">开始使用</string>
+    <string name="welcome_to_begin">欢迎使用为您适配的单手模式</string>
+</resources>

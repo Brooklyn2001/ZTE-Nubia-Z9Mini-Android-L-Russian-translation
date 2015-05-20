@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">自由截图</string>
+    <string name="action_settings">操作</string>
+    <string name="save">保存</string>
+    <string name="cancel">放弃</string>
+    <string name="reDraw">重画</string>
+    <string name="shared">分享</string>
+    <string name="start_tips">请画出想要截取的封闭图形</string>
+    <string name="save_tips">已保存到图库</string>
+    <string name="drop_tips">已退出自由截图模式</string>
+    <string name="redraw_tips">请重新画出想要截取的封闭图形</string>
+    <string name="app_description">分享应用图标</string>
+    <string name="introduction_title">了解自由截图</string>
+    <string name="introduction_summary">任意绘制一个封闭曲线，即可截取</string>
+    <string name="intro_tip">不要再显示</string>
+    <string name="ok">立即体验</string>
+    <string name="disk_unloaded">U盘可能已卸载</string>
+    <string name="share_title">分享</string>
+    <string name="no_sdcard">请插入SD卡</string>
+    <string name="title">了解自由截图</string>
+    <string name="failure_capture_screenshot">很抱歉，截取屏幕出错</string>
+    <item type="string" name="APKTOOL_DUMMY_0014">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0015">false</item>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="package_upgrading_title">Android 正在升级...</string>
+    <string name="package_upgrading_apk">正在优化第 %1$d 个应用（共 %2$d 个）。</string>
+    <string name="package_upgrading_complete">即将完成启动。</string>
+    <item type="string" name="APKTOOL_DUMMY_0003">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0004">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0005">false</item>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="brightness_entries">
+        <item>0%</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100%</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="brightness_values">
+        <item>20</item>
+        <item>43</item>
+        <item>67</item>
+        <item>90</item>
+        <item>114</item>
+        <item>137</item>
+        <item>161</item>
+        <item>184</item>
+        <item>208</item>
+        <item>231</item>
+        <item>255</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="screen_overtime_entries">
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>2分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>永久</item>
+    </string-array>
+    <string-array name="screen_overtime_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>2147483647</item>
+    </string-array>
+    <string-array name="governors">
+        <item>动态模式</item>
+        <item>交互模式</item>
+        <item>按需模式</item>
+        <item>用户模式</item>
+        <item>性能模式</item>
+    </string-array>
+    <string-array name="month">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="week">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+    <string-array name="traffic_setting_item">
+        <item>月流量限额</item>
+        <item>月结账日</item>
+        <item>省份</item>
+        <item>运营商信息</item>
+        <item>本月已用流量</item>
+    </string-array>
+    <string-array name="traffic_notice_item">
+        <item>日流量超额提醒</item>
+        <item>月流量超额提醒</item>
+    </string-array>
+    <string-array name="province">
+        <item>北京</item>
+        <item>上海</item>
+        <item>天津</item>
+        <item>重庆</item>
+        <item>安徽</item>
+        <item>福建</item>
+        <item>甘肃</item>
+        <item>广东</item>
+        <item>广西</item>
+        <item>贵州</item>
+        <item>海南</item>
+        <item>河北</item>
+        <item>河南</item>
+        <item>黑龙江</item>
+        <item>湖北</item>
+        <item>湖南</item>
+        <item>吉林</item>
+        <item>江苏</item>
+        <item>江西</item>
+        <item>辽宁</item>
+        <item>内蒙古</item>
+        <item>宁夏</item>
+        <item>青海</item>
+        <item>山东</item>
+        <item>山西</item>
+        <item>陕西</item>
+        <item>四川</item>
+        <item>西藏</item>
+        <item>新疆</item>
+        <item>云南</item>
+        <item>浙江</item>
+    </string-array>
+    <string-array name="operator">
+        <item>中国移动</item>
+        <item>中国联通</item>
+        <item>中国电信</item>
+    </string-array>
+</resources>

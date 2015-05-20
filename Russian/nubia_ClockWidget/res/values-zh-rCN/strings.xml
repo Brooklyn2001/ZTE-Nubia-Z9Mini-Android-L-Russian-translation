@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="date_format">M 月 d 日 EEEE a</string>
+    <string name="date_format_24">M 月 d 日 EEEE</string>
+    <string name="app_name">时钟widget</string>
+    <string name="digital_clock_widget">数字时钟</string>
+    <string name="analog_clock_widget">模拟时钟</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="am">上午</string>
+    <string name="pm">下午</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+</resources>

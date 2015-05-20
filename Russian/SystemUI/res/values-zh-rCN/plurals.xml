@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">概览中有 %d 个屏幕</item>
+        <item quantity="one">概览中有 1 个屏幕</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">电话卡PIN码不正确，还有%d次尝试机会。</item>
+        <item quantity="one">电话卡PIN码不正确，还有%d次尝试机会。如果仍然失败，则必须联系运营商帮你解锁设备。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">电话卡PUK码不正确，还有%d次尝试机会。</item>
+        <item quantity="one">电话卡PUK码不正确，还有%d次尝试机会。如果仍然失败，电话卡将永远无法使用。</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">输入电话卡 PIN，还有%d次尝试机会。</item>
+        <item quantity="one">输入电话卡 PIN，还有%d次尝试机会。如果仍然失败，则必须联系运营商帮你解锁设备。</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">电话卡已被停用，需要输入PUK码才能继续使用。还有 %d 次尝试机会。</item>
+        <item quantity="one">电话卡已被停用，需要输入PUK码才能继续使用。还有 %d 次尝试机会。如果仍然失败，电话卡将永远无法使用。 有关详情，请联系运营商。</item>
+    </plurals>
+</resources>

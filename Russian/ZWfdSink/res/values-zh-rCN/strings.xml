@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">接收端</string>
+    <string name="btn_search_dev">搜索</string>
+    <string name="progress_dialog_start_wfd_session">屏幕投影会话启动中……</string>
+    <string name="progress_dialog_wait_get_ip">等待分配 IP 地址……</string>
+    <string name="progress_dialog_press_back_cancel">按返回键取消</string>
+    <string name="app_title">接收投影画面</string>
+    <string name="qrcoderegion">二维码生成中</string>
+    <string name="qrcodeRegionSummary">在对方设备上点击我的设备名字以连接。或者扫一扫上面的二维码，将画面投影到我的手机。</string>
+    <string name="sink_disable_summary">其他屏幕投影设备不能发现本设备</string>
+    <string name="sink_enable_summary">附近的其他屏幕投影设备均可以发现本设备并发起投影 （%1$s）</string>
+    <string name="wifi_direct_error_retry">连接异常，请稍后重试</string>
+    <string name="sink_stay_here">如果要接收投影画面，请不要离开当前界面</string>
+</resources>

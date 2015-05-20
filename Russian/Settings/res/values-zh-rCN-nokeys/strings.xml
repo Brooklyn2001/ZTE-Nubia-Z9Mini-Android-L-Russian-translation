@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applications_settings_summary">管理应用</string>
+    <item type="string" name="APKTOOL_DUMMY_09c6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09c7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09d1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09d2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09d3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09d4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09d5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09d7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09d8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09d9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09da">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09db">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09dc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09dd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09de">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09df">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09e0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09e1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_09eb">false</item>
+</resources>

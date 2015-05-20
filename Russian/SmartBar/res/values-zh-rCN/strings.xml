@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_msg">无应用程序，忽略后退键</string>
+    <string name="camera_using_msg">应用不支持分屏</string>
+    <string name="home_double_msg">再按一次退出分屏</string>
+    <string name="drop_fail_msg">拖拽失败</string>
+    <string name="force_close">确定</string>
+    <string name="process_violation_title">提示</string>
+    <string name="process_violation_long_desc">应用 %1$s 已经在其他窗口运行</string>
+    <string name="process_violation_desc">应用 %1$s 已经在其他窗口运行</string>
+    <string name="activity_violation_title">提示</string>
+    <string name="activity_violation_desc">应用 %1$s 已经在其他窗口运行</string>
+    <string name="activity_violation_toast_desc">应用 %1$s 未完全暂停，请稍后再试</string>
+    <string name="swipe_hint">松手后启动分屏</string>
+</resources>

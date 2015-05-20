@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DTS音效</string>
+    <string name="list_title">音效模式</string>
+    <string name="volum_enhance">音量增強</string>
+    <string name="preset_movie">電影</string>
+    <string name="preset_music">音樂</string>
+    <string name="preset_podcast">播客</string>
+    <string name="preset_gaming">遊戲</string>
+    <string name="vol_boost">音量擴大</string>
+    <string name="slide_bass">低音</string>
+    <string name="slide_treble">高音</string>
+    <string name="preset_header">現在在聽甚麼?</string>
+    <string name="reset_defaults">重置所有設定</string>
+</resources>

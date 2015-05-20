@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="date_format">M 月 d 日 E</string>
+    <string name="smartface_setting_title">智能皮套</string>
+    <string name="title_enable_smartface_preference">皮套开关</string>
+    <string name="enable_smartface_summary">在智能手机上使用皮套功能</string>
+    <string name="title_enable_smartface_window_preference">智能皮套</string>
+    <string name="enable_smartface_window_summary">具有视窗功能+快速解锁功能</string>
+    <string name="title_dismiss_lockscreen_preference">自动解锁</string>
+    <string name="dismiss_lockscreen_summary">关闭安全锁后翻开皮套将解锁屏幕</string>
+    <string name="title_face_color_preference">窗口背景</string>
+    <string name="dialog_title_color_choose_preference">窗口顏色选择</string>
+    <string name="face_color_summary">高级黑</string>
+    <string name="title_smartface_helper_preference">帮助</string>
+    <string name="title_smartface_choice">皮套选择</string>
+    <string name="title_enable_smartface_ordinary_preference">真皮皮套</string>
+    <string name="enable_smartface_ordinary_summary">具有快速解锁功能</string>
+    <string name="smartface_support_info">智能皮套仅支持nubia智能手机</string>
+    <string name="smartface_function_info_1">开启视窗功能，在小窗口可以查看时间日期、使用音乐、闹钟等功能。</string>
+    <string name="smartface_function_info_2">你还可在小窗口上查看错过事件。</string>
+    <string name="music_no_track_tips">无音乐列表</string>
+</resources>

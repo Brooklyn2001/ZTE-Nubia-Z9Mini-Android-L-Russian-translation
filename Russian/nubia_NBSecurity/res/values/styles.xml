@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="common_switch_default_style">
+        <item name="android:clickable">true</item>
+        <item name="trackOn">@drawable/common_switch_track_on_button</item>
+        <item name="trackOff">@drawable/common_switch_track_off_button</item>
+        <item name="switchMinHeight">48.0dip</item>
+        <item name="thumb">@drawable/common_switch_thumb_button</item>
+        <item name="thumbTextPadding">20.0dip</item>
+        <item name="switchMinWidth">114.0dip</item>
+    </style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="SecurityPreferenceButton" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:textColor">@color/common_button_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="SecurityPreferenceButtonContainer" parent="@android:style/Holo.SegmentedButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:weightSum">2.0</item>
+        <item name="android:dividerPadding">8.0dip</item>
+    </style>
+    <style name="common_app_theme" parent="@style/AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="common_text_warning_red">
+        <item name="android:textSize">@dimen/common_text_size_medium</item>
+        <item name="android:textColor">@color/common_color_warning_red</item>
+    </style>
+    <style name="common_text_main_body">
+        <item name="android:textSize">@dimen/common_text_size_medium</item>
+        <item name="android:textColor">@color/common_color_text_main_body</item>
+    </style>
+    <style name="common_text_descreption_body">
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:textColor">@color/tab_text_unselected</item>
+    </style>
+    <style name="common_text_disable_body">
+        <item name="android:textColor">@color/common_color_text_disable_body</item>
+    </style>
+    <style name="common_text_title_body">
+        <item name="android:textSize">@dimen/common_text_size_large</item>
+        <item name="android:textColor">@color/common_color_text_main_body</item>
+    </style>
+    <style name="FrameworkContent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="text_size_large">
+        <item name="android:textSize">@dimen/common_text_size_large</item>
+    </style>
+    <style name="text_size_medium">
+        <item name="android:textSize">@dimen/common_text_size_medium</item>
+        <item name="android:textColor">@color/text_color_gray</item>
+    </style>
+    <style name="text_size_small">
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+    </style>
+    <style name="text_style_subtitle">
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:textColor">@color/common_summary_text_color</item>
+    </style>
+    <style name="toolbar_btn_name_style">
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:textColor">@color/text_color_gray</item>
+    </style>
+    <style name="common_style_spaceholder_horizontal_twotimes">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/common_spaceholder_size</item>
+    </style>
+    <style name="tab_style" parent="@style/text_size_medium">
+        <item name="android:textColor">@color/tab_text_unselected</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="list_item_height_normal">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:maxHeight">@dimen/common_list_item_height_small</item>
+        <item name="android:minHeight">@dimen/common_list_item_height_small</item>
+    </style>
+    <style name="list_item_height_large">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:maxHeight">@dimen/common_list_item_height_normal</item>
+        <item name="android:minHeight">@dimen/common_list_item_height_normal</item>
+    </style>
+    <style name="list_item_text_large_style">
+        <item name="android:textSize">@dimen/common_text_size_large</item>
+        <item name="android:layout_marginLeft">@dimen/common_margin_large</item>
+    </style>
+    <style name="list_item_text_medium_style">
+        <item name="android:textSize">@dimen/common_text_size_medium</item>
+        <item name="android:layout_marginLeft">@dimen/common_margin_large</item>
+    </style>
+    <style name="list_item_text_small_style">
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:layout_marginLeft">@dimen/common_margin_large</item>
+    </style>
+    <style name="list_item_icon">
+        <item name="android:layout_width">@dimen/common_item_icon_medium</item>
+        <item name="android:layout_height">@dimen/common_item_icon_medium</item>
+        <item name="android:layout_marginLeft">@dimen/common_margin_large</item>
+        <item name="android:layout_marginRight">@dimen/common_margin_medium</item>
+    </style>
+    <style name="list_item_icon_small">
+        <item name="android:layout_width">@dimen/common_item_icon_small</item>
+        <item name="android:layout_height">@dimen/common_item_icon_small</item>
+        <item name="android:layout_marginLeft">@dimen/common_margin_medium</item>
+        <item name="android:layout_marginRight">@dimen/common_margin_medium</item>
+    </style>
+    <style name="list_item_text_vertical_margin">
+        <item name="android:layout_marginTop">@dimen/common_margin_small</item>
+    </style>
+    <style name="list_item_text_title" parent="@style/text_size_medium">
+        <item name="android:textColor">@color/common_color_text_main_body</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="list_item_text_summary" parent="@style/text_size_small">
+        <item name="android:textColor">@color/common_summary_text_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/common_margin_small</item>
+    </style>
+    <style name="common_list_dividor">
+        <item name="android:divider">@color/common_horizontal_divider_color</item>
+        <item name="android:dividerHeight">@dimen/common_dividor_size</item>
+    </style>
+    <style name="common_horizontal_divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/common_dividor_size</item>
+        <item name="android:src">@color/common_horizontal_divider_color</item>
+    </style>
+    <style name="title_height">
+        <item name="android:layout_height">@dimen/common_title_bar_height</item>
+    </style>
+    <style name="common_title_bar_height">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_height">@dimen/common_title_bar_height</item>
+    </style>
+    <style name="common_title_headline">
+        <item name="android:textSize">@dimen/common_text_size_18</item>
+        <item name="android:textColor">@color/common_color_white</item>
+        <item name="android:layout_marginLeft">@dimen/common_title_text_margin_left</item>
+    </style>
+    <style name="common_tab_height">
+        <item name="android:layout_height">@dimen/common_title_bar_height</item>
+    </style>
+    <style name="list_item_checkbox">
+        <item name="android:paddingLeft">@dimen/common_margin_medium</item>
+        <item name="android:paddingRight">@dimen/common_margin_medium</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@drawable/common_checkbox_btn_selector</item>
+    </style>
+    <style name="app_item_icon">
+        <item name="android:layout_width">@dimen/common_item_icon_medium</item>
+        <item name="android:layout_height">@dimen/common_item_icon_medium</item>
+        <item name="android:layout_marginRight">@dimen/common_margin_medium</item>
+    </style>
+    <style name="AlertDialogCustom">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="traffic_pathScrollView" parent="@android:style/Widget.ScrollView">
+        <item name="android:fadingEdge">none</item>
+    </style>
+    <style name="traffic_big_dot">
+        <item name="android:paddingLeft">7.0px</item>
+        <item name="android:paddingTop">6.0px</item>
+        <item name="android:paddingRight">7.0px</item>
+        <item name="android:paddingBottom">8.0px</item>
+    </style>
+    <style name="traffic_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="traffic_lock_screen" parent="@android:style/Theme.Translucent">
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="app_ops_AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:background">@color/common_color_white</item>
+    </style>
+    <style name="app_ops_op_mode_style">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/app_ops_op_mode_background</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="mode_background">
+        <item name="android:background">#ff8c8c8c</item>
+    </style>
+    <style name="app_ops_op_mode_vertical_divide_line">
+        <item name="android:background">@color/app_ops_ap_mode_vertical_separator</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+    </style>
+    <style name="TextAppearance.Holo" parent="@style/TextAppearance" />
+    <style name="TextAppearance.Holo.Light" parent="@style/TextAppearance.Holo" />
+    <style name="TextAppearance.Holo.Light.Inverse" parent="@style/TextAppearance.Holo.Light">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="TextAppearance.Large" parent="@style/TextAppearance">
+        <item name="android:textSize">22.0sp</item>
+    </style>
+    <style name="TextAppearance.Medium" parent="@style/TextAppearance">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="TextAppearance.Small" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.ExtraSmall" parent="@style/TextAppearance">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Holo.Large" parent="@style/TextAppearance.Large" />
+    <style name="TextAppearance.Holo.Medium" parent="@style/TextAppearance.Medium" />
+    <style name="TextAppearance.Holo.Small" parent="@style/TextAppearance.Small" />
+    <style name="TextAppearance.Holo.ExtraSmall" parent="@style/TextAppearance.ExtraSmall" />
+    <style name="TextAppearance.Holo.Light.Large" parent="@style/TextAppearance.Holo.Large" />
+    <style name="TextAppearance.Holo.Light.Medium" parent="@style/TextAppearance.Holo.Medium" />
+    <style name="TextAppearance.Holo.Light.Small" parent="@style/TextAppearance.Holo.Small" />
+    <style name="TextAppearance.Holo.Light.ExtraSmall" parent="@style/TextAppearance.Holo.ExtraSmall" />
+    <style name="TextAppearance.Holo.Light.Large.Inverse" parent="@style/TextAppearance.Holo.Light.Large">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="TextAppearance.Holo.Light.Medium.Inverse" parent="@style/TextAppearance.Holo.Light.Medium">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="TextAppearance.Holo.Light.Small.Inverse" parent="@style/TextAppearance.Holo.Light.Small">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="TextAppearance.Holo.SearchResult" parent="@style/TextAppearance.Holo">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+    <style name="TextAppearance.Holo.Light.SearchResult" parent="@style/TextAppearance.Holo.SearchResult">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+    <style name="TextAppearance.Holo.Light.SearchResult.Title" parent="@style/TextAppearance.Holo.Light.SearchResult">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="TextAppearance.Holo.Light.SearchResult.Subtitle" parent="@style/TextAppearance.Holo.Light.SearchResult">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Widget" parent="@style/TextAppearance" />
+    <style name="TextAppearance.Holo.Light.Widget" parent="@style/TextAppearance.Widget" />
+    <style name="TextAppearance.Holo.Light.Widget.Button" parent="@style/TextAppearance.Holo.Light.Widget" />
+    <style name="TextAppearance.Widget.PopupMenu" parent="@style/TextAppearance.Widget">
+        <item name="android:textColor">@color/nubia_res_primary_text_light</item>
+        <item name="android:textColorHighlight">@color/nubia_res_highlighted_text_light</item>
+        <item name="android:textColorHint">@color/nubia_res_hint_foreground_light</item>
+        <item name="android:textColorLink">@color/nubia_res_link_text_light</item>
+    </style>
+    <style name="TextAppearance.Widget.PopupMenu.Large" parent="@style/TextAppearance.Widget.PopupMenu">
+        <item name="android:textSize">22.0sp</item>
+    </style>
+    <style name="TextAppearance.Widget.PopupMenu.Small" parent="@style/TextAppearance.Widget.PopupMenu">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/nubia_res_secondary_text_light</item>
+    </style>
+    <style name="TextAppearance.Holo.Widget.PopupMenu" parent="@style/TextAppearance.Widget.PopupMenu">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Holo.Widget.PopupMenu.Large" parent="@style/TextAppearance.Holo.Widget.PopupMenu">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="TextAppearance.Holo.Widget.PopupMenu.Small" parent="@style/TextAppearance.Holo.Widget.PopupMenu">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="TextAppearance.Holo.Light.Widget.PopupMenu.Large" parent="@style/TextAppearance.Holo.Widget.PopupMenu.Large" />
+    <style name="TextAppearance.Holo.Light.Widget.PopupMenu.Small" parent="@style/TextAppearance.Holo.Widget.PopupMenu.Small" />
+    <style name="Widget">
+        <item name="android:textAppearance">?android:textAppearance</item>
+    </style>
+    <style name="Widget.Button" parent="@style/Widget">
+        <item name="android:textAppearance">?android:textAppearanceSmallInverse</item>
+        <item name="android:textColor">@color/nubia_res_primary_text_light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/nubia_res_btn_default</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="Widget.Holo.Light.Button" parent="@style/Widget.Button">
+        <item name="android:textAppearance">?android:textAppearanceMediumInverse</item>
+        <item name="android:textColor">@color/nubia_res_primary_text_holo_light</item>
+        <item name="android:background">@drawable/nubia_res_btn_default_holo_light</item>
+        <item name="android:minWidth">64.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="Widget.Holo.Light.Button.Small" parent="@style/Widget.Holo.Light.Button">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/nubia_res_primary_text_holo_light</item>
+        <item name="android:background">@drawable/nubia_res_btn_default_holo_light</item>
+        <item name="android:minWidth">48.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="Widget.Holo.Light.Button.Inset" parent="@style/Widget.Holo.Light.Button" />
+    <style name="Widget.Holo.Light.Button.Toggle" parent="@style/Widget.Holo.Light.Button">
+        <item name="android:disabledAlpha">?android:disabledAlpha</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:background">@drawable/nubia_res_btn_toggle_holo_light</item>
+        <item name="android:textOn">@string/nubia_res_capital_on</item>
+        <item name="android:textOff">@string/nubia_res_capital_off</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="Widget.TextView" parent="@style/Widget">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSelectHandleLeft">?android:textSelectHandleLeft</item>
+        <item name="android:textSelectHandleRight">?android:textSelectHandleRight</item>
+        <item name="android:textSelectHandle">?android:textSelectHandle</item>
+        <item name="android:textEditPasteWindowLayout">?android:textEditPasteWindowLayout</item>
+        <item name="android:textEditNoPasteWindowLayout">?android:textEditNoPasteWindowLayout</item>
+        <item name="android:textEditSidePasteWindowLayout">?android:textEditSidePasteWindowLayout</item>
+        <item name="android:textEditSideNoPasteWindowLayout">?android:textEditSideNoPasteWindowLayout</item>
+        <item name="android:textCursorDrawable">?android:textCursorDrawable</item>
+        <item name="android:textEditSuggestionItemLayout">?android:textEditSuggestionItemLayout</item>
+    </style>
+    <style name="Widget.TextSuggestionsPopupWindow" parent="@style/Widget">
+        <item name="android:dropDownSelector">@drawable/nubia_res_list_selector_background</item>
+        <item name="android:popupBackground">@drawable/nubia_res_text_edit_suggestions_window</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="Widget.Holo.Light.TextSuggestionsPopupWindow" parent="@style/Widget.TextSuggestionsPopupWindow" />
+    <style name="Widget.AbsListView" parent="@style/Widget">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+    </style>
+    <style name="Widget.Holo.Light.AbsListView" parent="@style/Widget.AbsListView" />
+    <style name="Widget.AutoCompleteTextView" parent="@style/Widget.EditText">
+        <item name="android:completionHintView">@layout/nubia_res_simple_dropdown_hint</item>
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownSelector">@drawable/nubia_res_list_selector_background</item>
+        <item name="android:popupBackground">@drawable/nubia_res_spinner_dropdown_background</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">-6.0dip</item>
+    </style>
+    <style name="Widget.Holo.Light.AutoCompleteTextView" parent="@style/Widget.AutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/nubia_res_list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/nubia_res_menu_dropdown_panel_holo_light</item>
+    </style>
+    <style name="Widget.CompoundButton" parent="@style/Widget">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="Widget.CompoundButton.CheckBox" parent="@style/Widget.CompoundButton">
+        <item name="android:button">?android:listChoiceIndicatorMultiple</item>
+    </style>
+    <style name="Widget.Holo.Light.CompoundButton.CheckBox" parent="@style/Widget.CompoundButton.CheckBox" />
+    <style name="Widget.Holo.Light.ListView.DropDown" parent="@style/Widget.Holo.Light.ListView" />
+    <style name="Widget.EditText" parent="@style/Widget">
+        <item name="android:textAppearance">?android:textAppearanceMediumInverse</item>
+        <item name="android:textColor">?android:editTextColor</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?android:editTextBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="Widget.Holo.EditText" parent="@style/Widget.EditText" />
+    <style name="Widget.Holo.Light.EditText" parent="@style/Widget.Holo.EditText" />
+    <style name="Widget.Holo.Light.ExpandableListView" parent="@style/Widget.Holo.Light.ListView">
+        <item name="android:groupIndicator">@drawable/nubia_res_expander_group_holo_light</item>
+        <item name="android:indicatorLeft">?android:expandableListPreferredItemIndicatorLeft</item>
+        <item name="android:indicatorRight">?android:expandableListPreferredItemIndicatorRight</item>
+        <item name="android:childDivider">?android:listDivider</item>
+    </style>
+    <style name="Widget.Holo.Light.ExpandableListView.White" parent="@style/Widget.Holo.Light.ExpandableListView" />
+    <style name="Widget.Gallery" parent="@style/Widget">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:spacing">-20.0dip</item>
+        <item name="android:unselectedAlpha">0.85</item>
+    </style>
+    <style name="Widget.GestureOverlayView" parent="@style/Widget">
+        <item name="android:gestureStrokeWidth">12.0</item>
+        <item name="android:gestureColor">#ffffff00</item>
+        <item name="android:uncertainGestureColor">#48ffff00</item>
+        <item name="android:fadeOffset">420</item>
+        <item name="android:fadeDuration">150</item>
+        <item name="android:gestureStrokeLengthThreshold">50.0</item>
+        <item name="android:gestureStrokeSquarenessThreshold">0.275</item>
+        <item name="android:gestureStrokeAngleThreshold">40.0</item>
+        <item name="android:eventsInterceptionEnabled">true</item>
+    </style>
+    <style name="Widget.GridView" parent="@style/Widget.AbsListView">
+        <item name="android:listSelector">@drawable/nubia_res_grid_selector_background</item>
+    </style>
+    <style name="Widget.Holo.GridView" parent="@style/Widget.GridView">
+        <item name="android:listSelector">?android:selectableItemBackground</item>
+    </style>
+    <style name="Widget.Holo.Light.Gallery" parent="@style/Widget.Gallery" />
+    <style name="Widget.Holo.Light.GestureOverlayView" parent="@style/Widget.GestureOverlayView" />
+    <style name="Widget.Holo.Light.GridView" parent="@style/Widget.Holo.GridView" />
+    <style name="Widget.ImageButton" parent="@style/Widget">
+        <item name="android:background">@drawable/nubia_res_btn_default</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="TextAppearance.Small.CalendarViewWeekDayView" parent="@style/TextAppearance.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Widget.CalendarView" parent="@style/Widget">
+        <item name="android:firstDayOfWeek">1</item>
+        <item name="android:showWeekNumber">true</item>
+        <item name="android:minDate">01/01/1900</item>
+        <item name="android:maxDate">12/31/2100</item>
+        <item name="android:shownWeekCount">6</item>
+        <item name="android:selectedWeekBackgroundColor">#330099ff</item>
+        <item name="android:focusedMonthDateColor">#ffffffff</item>
+        <item name="android:unfocusedMonthDateColor">#66ffffff</item>
+        <item name="android:weekNumberColor">#33ffffff</item>
+        <item name="android:weekSeparatorLineColor">#19ffffff</item>
+        <item name="android:selectedDateVerticalBar">@drawable/nubia_res_day_picker_week_view_dayline_holo</item>
+        <item name="android:weekDayTextAppearance">@style/TextAppearance.Small.CalendarViewWeekDayView</item>
+        <item name="android:dateTextAppearance">?android:textAppearanceSmall</item>
+    </style>
+    <style name="Widget.NumberPicker" parent="@style/Widget">
+        <item name="android:orientation">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">50.0dip</item>
+    </style>
+    <style name="Widget.TimePicker" parent="@style/Widget" />
+    <style name="Widget.DatePicker" parent="@style/Widget">
+        <item name="android:calendarViewShown">false</item>
+    </style>
+    <style name="Widget.Holo.ImageButton" parent="@style/Widget.ImageButton">
+        <item name="android:background">@drawable/nubia_res_btn_default_holo_dark</item>
+    </style>
+    <style name="Widget.Holo.Light.ImageButton" parent="@style/Widget.Holo.ImageButton">
+        <item name="android:background">@drawable/nubia_res_btn_default_holo_light</item>
+    </style>
+    <style name="TextAppearance.Holo.Light.CalendarViewWeekDayView" parent="@style/TextAppearance.Small.CalendarViewWeekDayView" />
+    <style name="Widget.Holo.Light.CalendarView" parent="@style/Widget.CalendarView">
+        <item name="android:selectedWeekBackgroundColor">#330066ff</item>
+        <item name="android:focusedMonthDateColor">#ff000000</item>
+        <item name="android:unfocusedMonthDateColor">#7f08002b</item>
+        <item name="android:weekNumberColor">#7f080021</item>
+        <item name="android:weekSeparatorLineColor">#7f08002a</item>
+        <item name="android:weekDayTextAppearance">@style/TextAppearance.Holo.Light.CalendarViewWeekDayView</item>
+    </style>
+    <style name="Widget.Holo.NumberPicker" parent="@style/Widget.NumberPicker">
+        <item name="android:solidColor">@color/nubia_res_transparent</item>
+    </style>
+    <style name="Widget.Holo.TimePicker" parent="@style/Widget.TimePicker" />
+    <style name="Widget.Holo.DatePicker" parent="@style/Widget.DatePicker">
+        <item name="android:calendarViewShown">true</item>
+    </style>
+    <style name="Widget.Holo.Light.NumberPicker" parent="@style/Widget.Holo.NumberPicker" />
+    <style name="Widget.Holo.Light.TimePicker" parent="@style/Widget.Holo.TimePicker" />
+    <style name="Widget.Holo.Light.DatePicker" parent="@style/Widget.Holo.DatePicker" />
+    <style name="Widget.ActivityChooserView" parent="@style/Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/nubia_res_ab_share_pack_holo_dark</item>
+        <item name="android:divider">?android:dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">6.0dip</item>
+    </style>
+    <style name="Widget.Holo.ActivityChooserView" parent="@style/Widget.ActivityChooserView" />
+    <style name="Widget.Holo.Light.ActivityChooserView" parent="@style/Widget.Holo.ActivityChooserView">
+        <item name="android:background">@drawable/nubia_res_ab_share_pack_holo_light</item>
+    </style>
+    <style name="Widget.ImageWell" parent="@style/Widget">
+        <item name="android:background">@drawable/nubia_res_panel_picture_frame_background</item>
+    </style>
+    <style name="Widget.Holo.Light.ImageWell" parent="@style/Widget.ImageWell" />
+    <style name="Widget.ListView" parent="@style/Widget.AbsListView">
+        <item name="android:listSelector">@drawable/nubia_res_list_selector_background</item>
+        <item name="android:cacheColorHint">?android:colorBackgroundCacheHint</item>
+        <item name="android:divider">@drawable/nubia_res_divider_horizontal_dark_opaque</item>
+    </style>
+    <style name="Widget.Holo.ListView" parent="@style/Widget.ListView">
+        <item name="android:listSelector">?android:listChoiceBackgroundIndicator</item>
+        <item name="android:divider">?android:listDivider</item>
+    </style>
+    <style name="Widget.Holo.Light.ListView" parent="@style/Widget.Holo.ListView" />
+    <style name="Widget.Holo.Light.ListView.White" parent="@style/Widget.Holo.Light.ListView" />
+    <style name="Widget.Holo" parent="@style/Widget" />
+    <style name="Widget.CompoundButton.RadioButton" parent="@style/Widget.CompoundButton">
+        <item name="android:button">?android:listChoiceIndicatorSingle</item>
+    </style>
+    <style name="Widget.ScrollView" parent="@style/Widget">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+    </style>
+    <style name="Widget.HorizontalScrollView" parent="@style/Widget">
+        <item name="android:scrollbars">horizontal</item>
+        <item name="android:fadingEdge">horizontal</item>
+    </style>
+    <style name="Widget.Holo.Light.CompoundButton.RadioButton" parent="@style/Widget.CompoundButton.RadioButton" />
+    <style name="Widget.Holo.Light.ScrollView" parent="@style/Widget.ScrollView" />
+    <style name="Widget.Holo.Light.HorizontalScrollView" parent="@style/Widget.HorizontalScrollView" />
+    <style name="Widget.Spinner" parent="@style/Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/nubia_res_btn_dropdown</item>
+        <item name="android:clickable">true</item>
+        <item name="android:dropDownSelector">@drawable/nubia_res_list_selector_background</item>
+        <item name="android:popupBackground">@drawable/nubia_res_spinner_dropdown_background</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">-10.0dip</item>
+        <item name="android:spinnerMode">dialog</item>
+    </style>
+    <style name="Widget.Spinner.DropDown" parent="@style/Widget.Spinner">
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+    <style name="Widget.Holo.Spinner" parent="@style/Widget.Spinner.DropDown">
+        <item name="android:gravity">start|center</item>
+        <item name="android:background">@drawable/nubia_res_spinner_background_holo_dark</item>
+        <item name="android:dropDownSelector">@drawable/nubia_res_list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/nubia_res_menu_dropdown_panel_holo_dark</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">0.0dip</item>
+    </style>
+    <style name="Widget.Holo.Light.Spinner" parent="@style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/nubia_res_spinner_background_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/nubia_res_list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/nubia_res_menu_dropdown_panel_holo_light</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">0.0dip</item>
+    </style>
+    <style name="Widget.Holo.Light.Spinner.DropDown" parent="@style/Widget.Holo.Light.Spinner" />
+    <style name="Widget.Holo.Light.Spinner.DropDown.ActionBar" parent="@style/Widget.Holo.Light.Spinner.DropDown">
+        <item name="android:background">@drawable/nubia_res_spinner_ab_holo_light</item>
+    </style>
+    <style name="Widget.CompoundButton.Star" parent="@style/Widget.CompoundButton">
+        <item name="android:button">@drawable/nubia_res_btn_star</item>
+    </style>
+    <style name="Widget.Holo.Light.CompoundButton.Star" parent="@style/Widget.CompoundButton.Star">
+        <item name="android:button">@drawable/nubia_res_btn_star_holo_light</item>
+    </style>
+    <style name="TextAppearance.Widget.TabWidget" parent="@style/TextAppearance.Widget">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/nubia_res_tab_indicator_text</item>
+    </style>
+    <style name="Widget.TabWidget" parent="@style/Widget">
+        <item name="android:textAppearance">@style/TextAppearance.Widget.TabWidget</item>
+        <item name="android:gravity">fill_horizontal|center</item>
+        <item name="android:divider">@null</item>
+        <item name="android:tabStripLeft">@drawable/nubia_res_tab_bottom_left</item>
+        <item name="android:tabStripRight">@drawable/nubia_res_tab_bottom_right</item>
+        <item name="android:tabStripEnabled">true</item>
+    </style>
+    <style name="Widget.Holo.TabWidget" parent="@style/Widget.TabWidget">
+        <item name="android:divider">?android:dividerVertical</item>
+        <item name="android:tabStripLeft">@null</item>
+        <item name="android:tabStripRight">@null</item>
+        <item name="android:tabStripEnabled">false</item>
+        <item name="android:measureWithLargestChild">true</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">8.0dip</item>
+    </style>
+    <style name="Widget.Holo.Light.TabWidget" parent="@style/Widget.Holo.TabWidget" />
+    <style name="Widget.WebTextView" parent="@style/Widget">
+        <item name="android:textAppearance">?android:textAppearanceLargeInverse</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:completionHintView">@layout/nubia_res_simple_dropdown_item_1line</item>
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownSelector">@drawable/nubia_res_list_selector_background</item>
+        <item name="android:popupBackground">@drawable/nubia_res_spinner_dropdown_background</item>
+    </style>
+    <style name="Widget.Holo.Light.WebTextView" parent="@style/Widget.WebTextView" />
+    <style name="Widget.WebView" parent="@style/Widget">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:scrollbars">horizontal|vertical</item>
+    </style>
+    <style name="Widget.Holo.Light.WebView" parent="@style/Widget.WebView" />
+    <style name="TextAppearance.Widget.DropDownItem" parent="@style/TextAppearance.Widget">
+        <item name="android:textColor">@color/nubia_res_primary_text_light_disable_only</item>
+    </style>
+    <style name="TextAppearance.Holo.Widget" parent="@style/TextAppearance.Widget" />
+    <style name="TextAppearance.Holo.Widget.DropDownItem" parent="@style/TextAppearance.Holo.Widget">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="TextAppearance.Widget.TextView" parent="@style/TextAppearance.Widget">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+    <style name="TextAppearance.Widget.TextView.SpinnerItem" parent="@style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/nubia_res_primary_text_light_disable_only</item>
+    </style>
+    <style name="Widget.TextView.SpinnerItem" parent="@style/Widget.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.Widget.TextView.SpinnerItem</item>
+    </style>
+    <style name="TextAppearance.Holo.Widget.TextView" parent="@style/TextAppearance.Holo.Widget">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+    <style name="TextAppearance.Holo.Widget.TextView.SpinnerItem" parent="@style/TextAppearance.Holo.Widget.TextView">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="Widget.KeyboardView" parent="@android:style/Widget">
+        <item name="android:background">@drawable/nubia_res_keyboard_background</item>
+        <item name="android:shadowColor">#bb000000</item>
+        <item name="android:shadowRadius">2.75</item>
+        <item name="android:keyBackground">@drawable/nubia_res_btn_keyboard_key</item>
+        <item name="android:keyTextSize">22.0sp</item>
+        <item name="android:labelTextSize">14.0sp</item>
+        <item name="android:keyTextColor">#ffffffff</item>
+        <item name="android:keyPreviewLayout">@layout/nubia_res_keyboard_key_preview</item>
+        <item name="android:keyPreviewOffset">-12.0dip</item>
+        <item name="android:keyPreviewHeight">80.0dip</item>
+        <item name="android:verticalCorrection">-10.0dip</item>
+        <item name="android:popupLayout">@layout/nubia_res_keyboard_popup_keyboard</item>
+    </style>
+    <style name="Widget.Holo.Light.KeyboardView" parent="@style/Widget.KeyboardView" />
+    <style name="Widget.GenericQuickContactBadge" parent="@style/Widget">
+        <item name="android:background">@null</item>
+        <item name="android:clickable">true</item>
+        <item name="android:src">@drawable/nubia_res_ic_contact_picture</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="Widget.QuickContactBadge" parent="@style/Widget.GenericQuickContactBadge">
+        <item name="android:layout_width">64.0dip</item>
+        <item name="android:layout_height">64.0dip</item>
+    </style>
+    <style name="Widget.QuickContactBadgeSmall" parent="@style/Widget.GenericQuickContactBadge">
+        <item name="android:layout_width">40.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+    </style>
+    <style name="Widget.QuickContactBadge.WindowSmall" parent="@style/Widget.QuickContactBadge" />
+    <style name="Widget.QuickContactBadge.WindowMedium" parent="@style/Widget.QuickContactBadge" />
+    <style name="Widget.QuickContactBadge.WindowLarge" parent="@style/Widget.QuickContactBadge" />
+    <style name="Widget.QuickContactBadgeSmall.WindowSmall" parent="@style/Widget.QuickContactBadgeSmall" />
+    <style name="Widget.QuickContactBadgeSmall.WindowMedium" parent="@style/Widget.QuickContactBadgeSmall" />
+    <style name="Widget.QuickContactBadgeSmall.WindowLarge" parent="@style/Widget.QuickContactBadgeSmall" />
+    <style name="Widget.Holo.Light.QuickContactBadge.WindowSmall" parent="@style/Widget.QuickContactBadge.WindowSmall" />
+    <style name="Widget.Holo.Light.QuickContactBadge.WindowMedium" parent="@style/Widget.QuickContactBadge.WindowMedium" />
+    <style name="Widget.Holo.Light.QuickContactBadge.WindowLarge" parent="@style/Widget.QuickContactBadge.WindowLarge" />
+    <style name="Widget.Holo.Light.QuickContactBadgeSmall.WindowSmall" parent="@style/Widget.QuickContactBadgeSmall.WindowSmall" />
+    <style name="Widget.Holo.Light.QuickContactBadgeSmall.WindowMedium" parent="@style/Widget.QuickContactBadgeSmall.WindowMedium" />
+    <style name="Widget.Holo.Light.QuickContactBadgeSmall.WindowLarge" parent="@style/Widget.QuickContactBadgeSmall.WindowLarge" />
+    <style name="Widget.ListPopupWindow" parent="@style/Widget">
+        <item name="android:dropDownSelector">@drawable/nubia_res_list_selector_background</item>
+        <item name="android:popupBackground">@drawable/nubia_res_spinner_dropdown_background</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">-10.0dip</item>
+    </style>
+    <style name="Widget.Holo.Light.ListPopupWindow" parent="@style/Widget.ListPopupWindow">
+        <item name="android:dropDownSelector">@drawable/nubia_res_list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/nubia_res_menu_panel_holo_light</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">0.0dip</item>
+    </style>
+    <style name="Widget.Holo.Light.PopupMenu" parent="@style/Widget.Holo.Light.ListPopupWindow" />
+    <style name="Widget.ActionBar.TabBar" parent="@style/Widget" />
+    <style name="TextAppearance.Widget.TextView.PopupMenu" parent="@style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+    <style name="Widget.ActionBar.TabText" parent="@style/Widget">
+        <item name="android:textAppearance">@style/TextAppearance.Widget.TextView.PopupMenu</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="Widget.Holo.ActionBar.TabBar" parent="@style/Widget.ActionBar.TabBar">
+        <item name="android:divider">?android:actionBarDivider</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12.0dip</item>
+    </style>
+    <style name="Widget.Holo.ActionBar.TabText" parent="@style/Widget.ActionBar.TabText">
+        <item name="android:textAppearance">@style/TextAppearance.Holo.Medium</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="Widget.Holo.Light.ActionBar.TabBar" parent="@style/Widget.Holo.ActionBar.TabBar" />
+    <style name="Widget.Holo.Light.ActionBar.TabText" parent="@style/Widget.Holo.ActionBar.TabText" />
+    <style name="Widget.Holo.Light.ActionBar.TabBar.Inverse" parent="@style/Widget.Holo.Light.ActionBar.TabBar" />
+    <style name="Widget.Holo.Light.ActionBar.TabText.Inverse" parent="@style/Widget.Holo.Light.ActionBar.TabText">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="Widget.Holo.ActionMode" parent="@style/Widget.ActionMode">
+        <item name="android:titleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionMode.Title</item>
+        <item name="android:subtitleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionMode.Subtitle</item>
+    </style>
+    <style name="Widget.Holo.Light.ActionMode" parent="@style/Widget.Holo.ActionMode">
+        <item name="android:titleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionMode.Title</item>
+        <item name="android:subtitleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionMode.Subtitle</item>
+    </style>
+    <style name="TextAppearance.Widget.ActionMode.Title" parent="@android:style/TextAppearance.Medium" />
+    <style name="TextAppearance.Widget.ActionMode.Subtitle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="Widget.ActionMode" parent="@style/Widget">
+        <item name="android:background">?android:actionModeBackground</item>
+        <item name="android:height">?android:actionBarSize</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Widget.ActionMode.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.Widget.ActionMode.Subtitle</item>
+        <item name="android:backgroundSplit">?android:actionModeSplitBackground</item>
+    </style>
+    <style name="Widget.Holo.Light.ActionMode.Inverse" parent="@style/Widget.ActionMode">
+        <item name="android:titleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionMode.Title.Inverse</item>
+        <item name="android:subtitleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse</item>
+    </style>
+    <style name="TextAppearance.Widget.ActionBar.Title" parent="@style/TextAppearance.Medium" />
+    <style name="TextAppearance.Widget.ActionBar.Subtitle" parent="@style/TextAppearance.Small" />
+    <style name="TextAppearance.Holo.Widget.ActionBar.Subtitle" parent="@style/TextAppearance.Holo.Small">
+        <item name="android:textSize">@dimen/nubia_res_action_bar_subtitle_text_size</item>
+    </style>
+    <style name="TextAppearance.Holo.Widget.ActionBar.Title" parent="@style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">@dimen/nubia_res_action_bar_title_text_size</item>
+    </style>
+    <style name="TextAppearance.Holo.Small.Inverse" parent="@style/TextAppearance.Holo.Small">
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse" parent="@style/TextAppearance.Holo.Small.Inverse">
+        <item name="android:textSize">@dimen/nubia_res_action_bar_subtitle_text_size</item>
+    </style>
+    <style name="TextAppearance.Holo.Medium.Inverse" parent="@style/TextAppearance.Holo.Medium">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="TextAppearance.Holo.Widget.ActionBar.Title.Inverse" parent="@style/TextAppearance.Holo.Medium.Inverse">
+        <item name="android:textSize">@dimen/nubia_res_action_bar_title_text_size</item>
+    </style>
+    <style name="Widget.CompoundButton.Switch" parent="@style/Widget.CompoundButton">
+        <item name="android:textOn">@string/nubia_res_capital_on</item>
+        <item name="android:textOff">@string/nubia_res_capital_off</item>
+    </style>
+    <style name="TextAppearance.Holo.Light.Widget.Switch" parent="@style/TextAppearance.Holo.Small">
+        <item name="android:textColor">@color/nubia_res_primary_text_holo_dark</item>
+    </style>
+    <style name="Widget.Holo.Light.CompoundButton.Switch" parent="@style/Widget.CompoundButton.Switch">
+        <item name="android:textOn">@string/nubia_res_capital_on</item>
+        <item name="android:textOff">@string/nubia_res_capital_off</item>
+        <item name="android:thumb">@drawable/nubia_res_switch_inner_holo_light</item>
+        <item name="android:switchTextAppearance">@style/TextAppearance.Holo.Light.Widget.Switch</item>
+        <item name="android:track">@drawable/nubia_res_switch_track_holo_light</item>
+        <item name="android:switchMinWidth">96.0dip</item>
+        <item name="android:switchPadding">16.0dip</item>
+        <item name="android:thumbTextPadding">12.0dip</item>
+    </style>
+    <style name="WindowTitleBackground">
+        <item name="android:background">@drawable/nubia_res_title_bar</item>
+    </style>
+    <style name="TextAppearance.WindowTitle" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="WindowTitle">
+        <item name="android:textAppearance">@style/TextAppearance.WindowTitle</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#bb000000</item>
+        <item name="android:shadowRadius">2.75</item>
+    </style>
+    <style name="Widget.Holo.Light" parent="@style/Widget.Holo" />
+    <style name="WindowTitleBackground.Holo" parent="@style/WindowTitleBackground">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="TextAppearance.Holo.WindowTitle" parent="@style/TextAppearance.Holo">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="WindowTitle.Holo" parent="@style/WindowTitle">
+        <item name="android:textAppearance">@style/TextAppearance.Holo.WindowTitle</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#bb000000</item>
+        <item name="android:shadowRadius">2.75</item>
+    </style>
+    <style name="Widget.Holo.Light.MediaRouteButton" parent="@style/Widget.Holo.Light">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:minWidth">56.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:contentDescription">@string/nubia_res_media_route_button_content_description</item>
+    </style>
+    <style name="TextAppearance.Holo.Widget.ActionBar.Menu" parent="@style/TextAppearance.Holo.Small">
+        <item name="android:textSize">8.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:actionMenuTextColor</item>
+    </style>
+    <style name="Preference">
+        <item name="android:layout">@layout/nubia_res_preference</item>
+    </style>
+    <style name="Preference.Holo" parent="@style/Preference">
+        <item name="android:layout">@layout/nubia_res_preference_holo</item>
+    </style>
+    <style name="Preference.Holo.CheckBoxPreference" parent="@style/Preference.Holo">
+        <item name="android:widgetLayout">@layout/nubia_res_preference_widget_checkbox</item>
+    </style>
+    <style name="Preference.Holo.DialogPreference" parent="@style/Preference.Holo">
+        <item name="android:widgetLayout">@layout/nubia_res_preference_widget_arrow</item>
+        <item name="android:positiveButtonText">@string/nubia_res_ok</item>
+        <item name="android:negativeButtonText">@string/nubia_res_cancel</item>
+    </style>
+    <style name="TextAppearance.Holo.Widget.DropDownHint" parent="@style/TextAppearance.Holo.Widget">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="Widget.Holo.ListView.DropDown" parent="@style/Widget.Holo.ListView" />
+    <style name="Preference.Holo.DialogPreference.EditTextPreference" parent="@style/Preference.Holo.DialogPreference">
+        <item name="android:dialogLayout">@layout/nubia_res_preference_dialog_edittext</item>
+    </style>
+    <style name="Preference.Holo.RingtonePreference" parent="@style/Preference.Holo">
+        <item name="android:widgetLayout">@layout/nubia_res_preference_widget_arrow</item>
+        <item name="android:ringtoneType">ringtone</item>
+        <item name="android:showDefault">true</item>
+        <item name="android:showSilent">true</item>
+    </style>
+    <style name="Preference.Holo.Information" parent="@style/Preference.Holo">
+        <item name="android:enabled">false</item>
+        <item name="android:layout">@layout/nubia_res_preference_information_holo</item>
+        <item name="android:widgetLayout">@null</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.Holo.Category" parent="@style/Preference.Holo">
+        <item name="android:layout">@layout/nubia_res_preference_category_holo</item>
+        <item name="android:selectable">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.Holo.PreferenceScreen" parent="@style/Preference.Holo">
+        <item name="android:widgetLayout">@layout/nubia_res_preference_widget_arrow</item>
+    </style>
+    <style name="Widget.Holo.QuickContactBadgeSmall.WindowLarge" parent="@style/Widget.QuickContactBadgeSmall.WindowLarge" />
+    <style name="Widget.Holo.QuickContactBadgeSmall.WindowMedium" parent="@style/Widget.QuickContactBadgeSmall.WindowMedium" />
+    <style name="Widget.Holo.QuickContactBadgeSmall.WindowSmall" parent="@style/Widget.QuickContactBadgeSmall.WindowSmall" />
+    <style name="Widget.Holo.QuickContactBadge.WindowLarge" parent="@style/Widget.QuickContactBadge.WindowLarge" />
+    <style name="Widget.Holo.QuickContactBadge.WindowMedium" parent="@style/Widget.QuickContactBadge.WindowMedium" />
+    <style name="Widget.Holo.QuickContactBadge.WindowSmall" parent="@style/Widget.QuickContactBadge.WindowSmall" />
+    <style name="SegmentedButton">
+        <item name="android:background">@drawable/nubia_res_btn_default</item>
+        <item name="android:divider">?android:dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+    </style>
+    <style name="Holo.Light.SegmentedButton" parent="@style/SegmentedButton">
+        <item name="android:background">@drawable/nubia_res_btn_group_holo_light</item>
+    </style>
+    <style name="Preference.Holo.SwitchPreference" parent="@style/Preference.Holo">
+        <item name="android:widgetLayout">@layout/nubia_res_preference_widget_switch</item>
+        <item name="android:switchTextOn">@string/nubia_res_capital_on</item>
+        <item name="android:switchTextOff">@string/nubia_res_capital_off</item>
+    </style>
+    <style name="Widget.Holo.Light.TextView" parent="@style/Widget.TextView" />
+    <style name="Preference.Holo.DialogPreference.YesNoPreference" parent="@style/Preference.Holo.DialogPreference">
+        <item name="android:positiveButtonText">@string/nubia_res_yes</item>
+        <item name="android:negativeButtonText">@string/nubia_res_no</item>
+    </style>
+    <style name="NubiaAlertDialog">
+        <item name="android:windowBackground">@color/nubia_res_transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/NubiaDialogWindowTitle</item>
+    </style>
+    <style name="NubiaDialogWindowTitle">
+        <item name="android:textAppearance">@style/TextAppearance.Holo.NubiaDialogWindowTitle</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="TextAppearance.Holo.NubiaDialogWindowTitle" parent="@style/TextAppearance.Holo">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="RatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/food_rating_bar_full</item>
+    </style>
+    <style name="SmallTitle">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">#ffff4d4d</item>
+        <item name="android:paddingLeft">30.0dip</item>
+        <item name="android:maxHeight">45.0dip</item>
+        <item name="android:minHeight">45.0dip</item>
+    </style>
+    <style name="harass_call_show_marker">
+        <item name="android:windowEnterAnimation">@anim/harass_marker_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/harass_marker_dialog_exit</item>
+    </style>
+    <style name="HarassCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/harass_checkbox</item>
+    </style>
+    <style name="NBSecurityTheme" parent="@android:style/Theme.Light" />
+</resources>

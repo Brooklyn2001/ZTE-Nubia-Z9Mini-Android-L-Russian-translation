@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="record_quality_array">
+        <item>清晰，320kbps</item>
+        <item>标准，128kbps</item>
+        <item>省空间，64kbps</item>
+    </string-array>
+    <string-array name="select_save_stroage">
+        <item>手机存储</item>
+        <item>SD 卡存储</item>
+    </string-array>
+    <string-array name="store_path_Phone">
+        <item>手机存储</item>
+    </string-array>
+    <string-array name="more_array">
+        <item>分享</item>
+        <item>设为铃音</item>
+    </string-array>
+    <string-array name="set_ringtone_array">
+        <item>来电铃音</item>
+        <item>闹铃</item>
+    </string-array>
+    <string-array name="double_sim_card_array">
+        <item>卡1</item>
+        <item>卡2</item>
+    </string-array>
+    <string-array name="add_picture_array">
+        <item>拍照</item>
+        <item>从图库中选择照片</item>
+    </string-array>
+    <string-array name="look_picture_array">
+        <item>查看照片</item>
+        <item>删除照片</item>
+        <item>拍摄新照片</item>
+        <item>从图库中选择新照片</item>
+    </string-array>
+    <string-array name="save_format_array">
+        <item>拼合保存</item>
+        <item>独立保存</item>
+    </string-array>
+    <string-array name="recorder_list_sort">
+        <item>按时间</item>
+        <item>按标签</item>
+        <item>按时长</item>
+    </string-array>
+</resources>

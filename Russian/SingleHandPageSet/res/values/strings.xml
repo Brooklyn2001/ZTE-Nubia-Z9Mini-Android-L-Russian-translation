@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SingleHandPageSet</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_to_single">Welcome to Single Hand Mode</string>
+    <string name="welcome_to_single2">Click screen to get YOUR single hand mode</string>
+    <string name="test_single1">lay your finger on the screen</string>
+    <string name="test_single2">straighten your thumb</string>
+    <string name="test_single3">draw arc on the screen</string>
+    <string name="test_single_invalid">draw arc on the screen</string>
+    <string name="show_single">single hand mode that best fit your hand</string>
+    <string name="try_more">try again</string>
+    <string name="begin">begin to use</string>
+    <string name="welcome_to_begin">Welcome to YOUR single hande mode</string>
+</resources>

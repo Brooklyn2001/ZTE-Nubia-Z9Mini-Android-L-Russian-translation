@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aif">13.0dip</dimen>
+    <dimen name="aig">9.0dip</dimen>
+    <dimen name="aih">12.0dip</dimen>
+    <dimen name="aii">13.0dip</dimen>
+    <dimen name="aij">11.0dip</dimen>
+    <dimen name="aik">14.0dip</dimen>
+    <dimen name="ail">12.0dip</dimen>
+</resources>

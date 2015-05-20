@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="trim_items">
+        <item>覆盖原视频</item>
+        <item>另存为新视频</item>
+    </string-array>
+</resources>

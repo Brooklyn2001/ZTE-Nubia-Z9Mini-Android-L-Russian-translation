@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_install_location_entries">
+        <item>由系统确定</item>
+        <item>设备内存</item>
+        <item>可卸载的 SD 卡</item>
+    </string-array>
+</resources>

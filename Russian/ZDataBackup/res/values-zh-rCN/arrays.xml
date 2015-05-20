@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sa_remind_regularly">
+        <item>不提醒</item>
+        <item>每周提醒</item>
+        <item>每月提醒</item>
+    </string-array>
+    <string-array name="cycle_day_of_week">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+    <string-array name="app_backup_type">
+        <item>备份应用apk文件</item>
+        <item>备份应用程序数据</item>
+    </string-array>
+    <string-array name="backup_item_group_type">
+        <item>已安装应用程序</item>
+        <item>已卸载但仍保留的数据</item>
+    </string-array>
+    <string-array name="app_restore_type">
+        <item>恢复应用程序</item>
+        <item>恢复应用程序数据</item>
+    </string-array>
+    <string-array name="schedule_backup_content_types">
+        <item>个人信息</item>
+        <item>系统信息</item>
+    </string-array>
+    <string-array name="schedule_reminder_types">
+        <item>不提醒</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>15分钟</item>
+        <item>20分钟</item>
+        <item>25分钟</item>
+        <item>30分钟</item>
+        <item>45分钟</item>
+        <item>一小时</item>
+    </string-array>
+    <string-array name="personal_info_backup_item_type_cnt_unit">
+        <item>个</item>
+        <item>条</item>
+        <item>条</item>
+        <item>个</item>
+        <item>个</item>
+        <item>个</item>
+        <item>条</item>
+        <item>套</item>
+        <item>项</item>
+        <item>项</item>
+    </string-array>
+    <string-array name="system_info_backup_item_type_cnt_unit">
+        <item>项</item>
+    </string-array>
+    <string-array name="devices_name">
+        <item>@string/device_phone_storage</item>
+        <item>@string/device_sd_card</item>
+    </string-array>
+    <string-array name="pri_type_cnt_unit">
+        <item>个</item>
+        <item>条</item>
+        <item>条</item>
+        <item>个</item>
+        <item>个</item>
+        <item>个</item>
+        <item>条</item>
+        <item>套</item>
+        <item>项</item>
+        <item>项</item>
+    </string-array>
+</resources>

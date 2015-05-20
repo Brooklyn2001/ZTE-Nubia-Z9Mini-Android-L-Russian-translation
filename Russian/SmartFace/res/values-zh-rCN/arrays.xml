@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_color_list_preference">
+        <item>高级黑</item>
+        <item>高级红</item>
+        <item>高级绿</item>
+    </string-array>
+    <string-array name="entryvalues_color_list_preference">
+        <item>alpha</item>
+        <item>beta</item>
+        <item>charlie</item>
+    </string-array>
+</resources>

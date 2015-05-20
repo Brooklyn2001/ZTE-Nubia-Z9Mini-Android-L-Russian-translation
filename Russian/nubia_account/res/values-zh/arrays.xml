@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_name">
+        <item>中国(大陆)</item>
+    </string-array>
+    <string-array name="safe_question">
+        <item>无安全问题</item>
+        <item>您母亲的名字是什么 ?</item>
+        <item>您爷爷的名字是什么 ?</item>
+        <item>您父亲出生的城市是哪里 ?</item>
+        <item>您其中一位老师的名字是什么 ?</item>
+        <item>您个人计算机的型号是什么 ?</item>
+        <item>您最喜欢的餐馆叫什么名字 ?</item>
+        <item>您的驾驶执照最后四位数字是什么 ?</item>
+    </string-array>
+</resources>

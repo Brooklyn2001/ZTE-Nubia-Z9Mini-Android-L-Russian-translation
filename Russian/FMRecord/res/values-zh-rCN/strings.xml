@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="spaceIsLow_content">USB 存储设备空间不足，请更改录音时长设置，或删除某些录音或者其他文件。</string>
+    <string name="FMRecording_reach_size_limit">已到达最长限制.</string>
+    <string name="audio_db_artist_name">我的 FM 录音</string>
+    <string name="audio_db_album_name">FM 录音</string>
+    <string name="audio_db_playlist_name">FM 录音</string>
+    <string name="save_record_file">录音已保存至 %1$s</string>
+    <string name="fm_record_progress">FM 录音进行中</string>
+    <string name="unable_to_store">无法保存已录音频</string>
+    <item type="string" name="APKTOOL_DUMMY_000c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_000d">false</item>
+</resources>

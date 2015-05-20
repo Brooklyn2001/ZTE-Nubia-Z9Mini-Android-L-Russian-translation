@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">拼图</string>
+    <string name="app_name_nubia_poster">个性海报</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="share">分享</string>
+    <string name="back">返回</string>
+    <string name="help">帮助</string>
+    <string name="wait_a_moment">请稍等片刻..</string>
+    <string name="wait_a_moment2">正在生成图片..</string>
+    <string name="wait_a_moment3">正在保存图片..</string>
+    <string name="open_picture">正在打开图片</string>
+    <string name="reset">重置</string>
+    <string name="contentDescription">图片描述</string>
+    <string name="confirm_discard_picture">确认放弃该图片？</string>
+    <string name="picture_contrast">对比</string>
+    <string name="beauty_brush_size">画笔大小</string>
+    <string name="waitforwork">正在处理中</string>
+    <string name="save_tips">图片已保存到</string>
+    <string name="save_tips_ex">图片已保存到同一相册</string>
+    <string name="save_info">正在将图片保存到 %1$s...</string>
+    <string name="stroage_full_tip">保存图片失败，存储空间可能已满。</string>
+    <string name="spaceIsLow_tip">存储空间不足</string>
+    <string name="spaceIsLow_content">存储空间不足，请删除某些照片或者其他文件。</string>
+    <string name="puzzle_template">模板拼图</string>
+    <string name="puzzle_freedom">自由拼图</string>
+    <string name="puzzle_join">图片拼接</string>
+    <string name="pintu_frame_list">边框列表</string>
+    <string name="pintu_change_bg">选择背景</string>
+    <string name="pintu_change_frame">选择边框</string>
+    <string name="change_frame">版式切换中</string>
+    <string name="change_style">样式切换中</string>
+    <string name="save_toast">已保存至Pictures/PhotoEditor文件夹!</string>
+</resources>

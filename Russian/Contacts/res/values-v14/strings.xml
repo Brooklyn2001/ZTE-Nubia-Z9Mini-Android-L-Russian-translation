@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_summary_notification_enabled">Display message notifications in status bar</string>
+    <string name="has_draft">[Draft]</string>
+    <string name="pref_summary_manage_sim_messages">Manage messages stored on your Phone card</string>
+    <string name="pref_title_manage_sim_messages">Manage Phone card messages</string>
+    <string name="confirm_delete_all_SIM_messages">All messages on the Phone card will be deleted.</string>
+    <string name="confirm_delete_SIM_message">This message on the Phone card will be deleted.</string>
+    <string name="sim_manage_messages_title">Text messages on Phone card</string>
+    <string name="sim_empty">No messages on Phone card.</string>
+    <string name="attach_sound">Ringtone</string>
+    <string name="message_count_format"> (%1$s)</string>
+</resources>

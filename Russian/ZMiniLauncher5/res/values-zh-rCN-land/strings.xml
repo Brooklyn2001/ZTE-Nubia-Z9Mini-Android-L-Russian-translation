@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_target_label" />
+    <string name="delete_target_uninstall_label" />
+    <string name="info_target_label" />
+    <item type="string" name="APKTOOL_DUMMY_0070">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0071">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0072">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0073">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0074">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0077">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0078">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0079">false</item>
+    <item type="string" name="APKTOOL_DUMMY_007a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_007b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_007c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_007d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_007e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_007f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0080">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0081">false</item>
+</resources>

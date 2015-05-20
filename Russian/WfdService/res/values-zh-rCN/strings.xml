@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">屏幕投影服务</string>
+    <string name="wfd_service">屏幕投影</string>
+    <string name="mirroring_on">正在屏幕投影中</string>
+</resources>

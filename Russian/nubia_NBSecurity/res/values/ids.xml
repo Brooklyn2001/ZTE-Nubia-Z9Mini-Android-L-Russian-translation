@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="nubia_res_background" />
+    <item type="id" name="nubia_res_checkbox" />
+    <item type="id" name="nubia_res_content" />
+    <item type="id" name="nubia_res_empty" />
+    <item type="id" name="nubia_res_hint" />
+    <item type="id" name="nubia_res_icon" />
+    <item type="id" name="nubia_res_icon1" />
+    <item type="id" name="nubia_res_icon2" />
+    <item type="id" name="nubia_res_input" />
+    <item type="id" name="nubia_res_left_icon" />
+    <item type="id" name="nubia_res_list" />
+    <item type="id" name="nubia_res_menu" />
+    <item type="id" name="nubia_res_message" />
+    <item type="id" name="nubia_res_primary" />
+    <item type="id" name="nubia_res_progress" />
+    <item type="id" name="nubia_res_right_icon" />
+    <item type="id" name="nubia_res_summary" />
+    <item type="id" name="vselectedIcon" />
+    <item type="id" name="nubia_res_tabcontent" />
+    <item type="id" name="nubia_res_tabhost" />
+    <item type="id" name="nubia_res_tabs" />
+    <item type="id" name="nubia_res_text1" />
+    <item type="id" name="nubia_res_text2" />
+    <item type="id" name="nubia_res_title" />
+    <item type="id" name="nubia_res_title_container" />
+    <item type="id" name="nubia_res_toggle" />
+    <item type="id" name="nubia_res_secondaryProgress" />
+    <item type="id" name="nubia_res_lock_screen" />
+    <item type="id" name="nubia_res_edit" />
+    <item type="id" name="nubia_res_widget_frame" />
+    <item type="id" name="nubia_res_button1" />
+    <item type="id" name="nubia_res_button2" />
+    <item type="id" name="nubia_res_button3" />
+    <item type="id" name="nubia_res_extractArea" />
+    <item type="id" name="nubia_res_candidatesArea" />
+    <item type="id" name="nubia_res_inputArea" />
+    <item type="id" name="nubia_res_inputExtractEditText" />
+    <item type="id" name="nubia_res_selectAll" />
+    <item type="id" name="nubia_res_cut" />
+    <item type="id" name="nubia_res_copy" />
+    <item type="id" name="nubia_res_paste" />
+    <item type="id" name="nubia_res_copyUrl" />
+    <item type="id" name="nubia_res_selectTextMode" />
+    <item type="id" name="nubia_res_switchInputMethod" />
+    <item type="id" name="nubia_res_keyboardView" />
+    <item type="id" name="nubia_res_closeButton" />
+    <item type="id" name="nubia_res_startSelectingText" />
+    <item type="id" name="nubia_res_stopSelectingText" />
+    <item type="id" name="nubia_res_addToDictionary" />
+    <item type="id" name="nubia_res_accountPreferences" />
+    <item type="id" name="nubia_res_smallIcon" />
+    <item type="id" name="nubia_res_custom" />
+    <item type="id" name="nubia_res_fillInIntent" />
+    <item type="id" name="nubia_res_rowTypeId" />
+    <item type="id" name="nubia_res_action_menu_divider" />
+    <item type="id" name="nubia_res_icon_menu_presenter" />
+    <item type="id" name="nubia_res_list_menu_presenter" />
+    <item type="id" name="nubia_res_action_menu_presenter" />
+    <item type="id" name="nubia_res_overflow_menu_presenter" />
+    <item type="id" name="nubia_res_popup_submenu_presenter" />
+    <item type="id" name="nubia_res_action_bar_spinner" />
+    <item type="id" name="nubia_res_edittext_container" />
+    <item type="id" name="nubia_res_switchWidget" />
+    <item type="id" name="nubia_res_parentPanel" />
+    <item type="id" name="nubia_res_dialog_animate_view" />
+    <item type="id" name="nubia_res_animPanel" />
+    <item type="id" name="nubia_res_pcenterPanel" />
+    <item type="id" name="nubia_res_topPanel" />
+    <item type="id" name="nubia_res_title_template" />
+    <item type="id" name="nubia_res_alertTitle" />
+    <item type="id" name="nubia_res_titleDivider" />
+    <item type="id" name="nubia_res_contentPanel" />
+    <item type="id" name="nubia_res_scrollView" />
+    <item type="id" name="nubia_res_customPanel" />
+    <item type="id" name="nubia_res_buttonPanel" />
+    <item type="id" name="nubia_res_leftSpacer" />
+    <item type="id" name="nubia_res_rightSpacer" />
+    <item type="id" name="nubia_res_select_dialog_listview" />
+    <item type="id" name="nubia_res_titleDividerTop" />
+    <item type="id" name="nubia_res_lettertext" />
+    <item type="id" name="content">false</item>
+    <item type="id" name="title_bar">false</item>
+    <item type="id" name="bottom_zone">false</item>
+    <item type="id" name="bottom_btn">false</item>
+    <item type="id" name="scaning_page">false</item>
+    <item type="id" name="content_and_panel">false</item>
+    <item type="id" name="runing_circle">false</item>
+    <item type="id" name="fixed_scaning">false</item>
+    <item type="id" name="dynamic_scaning">false</item>
+    <item type="id" name="auto_clean_setting_text">false</item>
+    <item type="id" name="auto_clean_open_icon">false</item>
+    <item type="id" name="auto_clean_info1_text">false</item>
+    <item type="id" name="auto_clean_info2_text">false</item>
+    <item type="id" name="tv_progress">false</item>
+    <item type="id" name="header_circle">false</item>
+    <item type="id" name="clean_finish_layout">false</item>
+    <item type="id" name="clean_done_pic">false</item>
+    <item type="id" name="upper_text_zone">false</item>
+    <item type="id" name="value">false</item>
+    <item type="id" name="unit">false</item>
+    <item type="id" name="result_page">false</item>
+    <item type="id" name="sticky_layout">false</item>
+    <item type="id" name="sticky_header">false</item>
+    <item type="id" name="result_text_zone">false</item>
+    <item type="id" name="result_upper_text_zone">false</item>
+    <item type="id" name="result_value">false</item>
+    <item type="id" name="result_unit">false</item>
+    <item type="id" name="result_under_text">false</item>
+    <item type="id" name="sticky_content">false</item>
+    <item type="id" name="panel_header">false</item>
+    <item type="id" name="list">false</item>
+    <item type="id" name="store_not_enough_notification">false</item>
+    <item type="id" name="instore_not_enough_notification">false</item>
+    <item type="id" name="guard_app_name_list">false</item>
+    <item type="id" name="auto_clean_setting">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="title_go_back_view">false</item>
+    <item type="id" name="title_go_back">false</item>
+    <item type="id" name="common_title_face_view">false</item>
+    <item type="id" name="title_face_laugh">false</item>
+    <item type="id" name="title_face_angry">false</item>
+    <item type="id" name="divide_line_bottom">false</item>
+    <item type="id" name="button_send">false</item>
+    <item type="id" name="suggestContent">false</item>
+    <item type="id" name="app_listView">false</item>
+    <item type="id" name="settings_main_container">false</item>
+    <item type="id" name="add_sms_grabage_fragment">false</item>
+    <item type="id" name="app_ops_application_detail_app_info">false</item>
+    <item type="id" name="app_ops_app_icon">false</item>
+    <item type="id" name="app_ops_description">false</item>
+    <item type="id" name="app_ops_app_name">false</item>
+    <item type="id" name="app_ops_app_version">false</item>
+    <item type="id" name="app_ops_app_prompt">false</item>
+    <item type="id" name="app_ops_app_control_switch">false</item>
+    <item type="id" name="app_ops_op_all_allowed">false</item>
+    <item type="id" name="app_ops_op_all_ask">false</item>
+    <item type="id" name="app_ops_op_all_ignored">false</item>
+    <item type="id" name="authority_view">false</item>
+    <item type="id" name="app_ops_app_summary_1">false</item>
+    <item type="id" name="app_ops_app_summary_2">false</item>
+    <item type="id" name="app_ops_app_indicator_icon">false</item>
+    <item type="id" name="app_ops_authority_item_name">false</item>
+    <item type="id" name="app_ops_authority_item_prompt">false</item>
+    <item type="id" name="app_ops_common_list_view">false</item>
+    <item type="id" name="app_ops_op_view">false</item>
+    <item type="id" name="app_ops_op_current_mode">false</item>
+    <item type="id" name="app_ops_op_mode_view">false</item>
+    <item type="id" name="app_ops_op_name">false</item>
+    <item type="id" name="app_ops_op_summary">false</item>
+    <item type="id" name="app_ops_op_mode_allowed">false</item>
+    <item type="id" name="app_ops_op_mode_ask">false</item>
+    <item type="id" name="app_ops_op_mode_ignored">false</item>
+    <item type="id" name="app_ops_progress">false</item>
+    <item type="id" name="common_sub_title_bottom_line">false</item>
+    <item type="id" name="whitelist_app_listview">false</item>
+    <item type="id" name="whitelist_empty_prompt_view">false</item>
+    <item type="id" name="whitelist_app_empty_prompt">false</item>
+    <item type="id" name="add_app_list_bg">false</item>
+    <item type="id" name="add_app_icon">false</item>
+    <item type="id" name="add_app_name">false</item>
+    <item type="id" name="add_white_list_checkbox">false</item>
+    <item type="id" name="process_toolbar">false</item>
+    <item type="id" name="front">false</item>
+    <item type="id" name="app_icon_imageView">false</item>
+    <item type="id" name="app_name_textView">false</item>
+    <item type="id" name="app_sub_name">false</item>
+    <item type="id" name="app_name_choose">false</item>
+    <item type="id" name="footer">false</item>
+    <item type="id" name="listview_title">false</item>
+    <item type="id" name="app_start_method_textView">false</item>
+    <item type="id" name="app_allow_btn">false</item>
+    <item type="id" name="toast_textView">false</item>
+    <item type="id" name="app_sub_descrip">false</item>
+    <item type="id" name="rm_white_list_btn">false</item>
+    <item type="id" name="diff_status_listView">false</item>
+    <item type="id" name="audio_icon">false</item>
+    <item type="id" name="audio_select_checkbox">false</item>
+    <item type="id" name="audioname">false</item>
+    <item type="id" name="item_zone">false</item>
+    <item type="id" name="app_icon">false</item>
+    <item type="id" name="name">false</item>
+    <item type="id" name="version">false</item>
+    <item type="id" name="cb">false</item>
+    <item type="id" name="item_value">false</item>
+    <item type="id" name="place_holder">false</item>
+    <item type="id" name="common_all_selected_checkbox_buttom">false</item>
+    <item type="id" name="common_bottom_btn_layout">false</item>
+    <item type="id" name="common_bottom_btn">false</item>
+    <item type="id" name="common_bottom_msg_layout">false</item>
+    <item type="id" name="common_bottom_msg_text">false</item>
+    <item type="id" name="common_bottom_toolbar_round_btn_layout">false</item>
+    <item type="id" name="common_bottom_toolbar_round_btn_shadow">false</item>
+    <item type="id" name="common_bottom_toolbar_btns_container">false</item>
+    <item type="id" name="common_bottom_toolbar_btn_container_1">false</item>
+    <item type="id" name="common_bottom_toolbar_round_btn_1">false</item>
+    <item type="id" name="common_bottom_toolbar_round_btn_1_name">false</item>
+    <item type="id" name="common_bottom_toolbar_btn_container_2">false</item>
+    <item type="id" name="common_bottom_toolbar_round_btn_2">false</item>
+    <item type="id" name="common_bottom_toolbar_round_btn_2_name">false</item>
+    <item type="id" name="common_bottom_toolbar_btn_container_3">false</item>
+    <item type="id" name="common_bottom_toolbar_round_btn_3">false</item>
+    <item type="id" name="common_bottom_toolbar_round_btn_3_name">false</item>
+    <item type="id" name="toolbar_button_checkbox">false</item>
+    <item type="id" name="bottom_selectall">false</item>
+    <item type="id" name="common_listitem_checkbox">false</item>
+    <item type="id" name="common_lisitem_title">false</item>
+    <item type="id" name="common_listitem_content">false</item>
+    <item type="id" name="common_confirm_check_layout_area">false</item>
+    <item type="id" name="common_select_and_confirm">false</item>
+    <item type="id" name="common_all_items_check">false</item>
+    <item type="id" name="common_contacts_list">false</item>
+    <item type="id" name="common_contacts_add_name">false</item>
+    <item type="id" name="common_contacts_add_num">false</item>
+    <item type="id" name="common_multi_list_item_check">false</item>
+    <item type="id" name="common_single_contacts_add_name">false</item>
+    <item type="id" name="common_single_contacts_add_num">false</item>
+    <item type="id" name="common_group_title_top_placeholder">false</item>
+    <item type="id" name="common_group_title_headline">false</item>
+    <item type="id" name="remoteguard_frame">false</item>
+    <item type="id" name="remoteguard_loading_iv">false</item>
+    <item type="id" name="remoteguard_loading_icon">false</item>
+    <item type="id" name="common_loading_message">false</item>
+    <item type="id" name="status_bar_latest_event_content">false</item>
+    <item type="id" name="notification_large_icon">false</item>
+    <item type="id" name="main_notification_barass">false</item>
+    <item type="id" name="notification_call_img">false</item>
+    <item type="id" name="notification_call">false</item>
+    <item type="id" name="notification_message_img">false</item>
+    <item type="id" name="notification_message">false</item>
+    <item type="id" name="notification_divide_line_2">false</item>
+    <item type="id" name="main_notification_traffic">false</item>
+    <item type="id" name="notification_content_title">false</item>
+    <item type="id" name="notification_progress_text">false</item>
+    <item type="id" name="common_pattern_container_layout">false</item>
+    <item type="id" name="common_lock_title">false</item>
+    <item type="id" name="common_patternview">false</item>
+    <item type="id" name="common_parttern_message">false</item>
+    <item type="id" name="common_pattern_bottom_layout">false</item>
+    <item type="id" name="common_pattern_controller">false</item>
+    <item type="id" name="common_pattern">false</item>
+    <item type="id" name="common_pattern_title">false</item>
+    <item type="id" name="common_pattern_view_title_privacy">false</item>
+    <item type="id" name="common_pattern_view_title">false</item>
+    <item type="id" name="common_pattern_questions">false</item>
+    <item type="id" name="common_pattern_view_questions_text">false</item>
+    <item type="id" name="common_pattern_view_questions">false</item>
+    <item type="id" name="common_pattern_view_questions_content">false</item>
+    <item type="id" name="common_pattern_answer">false</item>
+    <item type="id" name="common_pattern_view_answer_text">false</item>
+    <item type="id" name="common_pattern_view_answer">false</item>
+    <item type="id" name="common_pattern_tips">false</item>
+    <item type="id" name="common_pattern_view_questions_tips">false</item>
+    <item type="id" name="common_single_contacts_list_title">false</item>
+    <item type="id" name="common_single_contacts_list">false</item>
+    <item type="id" name="common_sub_title_headline">false</item>
+    <item type="id" name="pager">false</item>
+    <item type="id" name="tabs">false</item>
+    <item type="id" name="common_tab_1">false</item>
+    <item type="id" name="common_tab_2">false</item>
+    <item type="id" name="common_tab_3">false</item>
+    <item type="id" name="common_tab_4">false</item>
+    <item type="id" name="common_tab_5">false</item>
+    <item type="id" name="common_tab_cursor">false</item>
+    <item type="id" name="common_title_go_back_view">false</item>
+    <item type="id" name="common_title_go_back">false</item>
+    <item type="id" name="common_title_headline">false</item>
+    <item type="id" name="common_title_settings_view">false</item>
+    <item type="id" name="common_title_settings_image">false</item>
+    <item type="id" name="privacy_title_bar">false</item>
+    <item type="id" name="privacy_contact_name">false</item>
+    <item type="id" name="privacy_smsdiabtn">false</item>
+    <item type="id" name="privacy_composemessageprogress">false</item>
+    <item type="id" name="privacy_smslist">false</item>
+    <item type="id" name="privacy_sendsmsbtn">false</item>
+    <item type="id" name="privacy_smsendittext">false</item>
+    <item type="id" name="cb_layout">false</item>
+    <item type="id" name="group_size">false</item>
+    <item type="id" name="group_indicator">false</item>
+    <item type="id" name="gallery_image">false</item>
+    <item type="id" name="notify_icon_image">false</item>
+    <item type="id" name="notify_content_text">false</item>
+    <item type="id" name="notify_sub_content_text">false</item>
+    <item type="id" name="notify_clean_button">false</item>
+    <item type="id" name="file_icon">false</item>
+    <item type="id" name="title_container">false</item>
+    <item type="id" name="select_checkbox">false</item>
+    <item type="id" name="selected_frame">false</item>
+    <item type="id" name="file_play">false</item>
+    <item type="id" name="harass_add_marker_edit">false</item>
+    <item type="id" name="harass_add_marker_cancel">false</item>
+    <item type="id" name="harass_add_marker_ok">false</item>
+    <item type="id" name="record_list">false</item>
+    <item type="id" name="harass_empty_prompt_view">false</item>
+    <item type="id" name="harass_empty_prompt">false</item>
+    <item type="id" name="harass_blank_fragment">false</item>
+    <item type="id" name="harass_call_show_marked_close">false</item>
+    <item type="id" name="harass_call_show_marked_icon">false</item>
+    <item type="id" name="harass_call_show_marked_desc">false</item>
+    <item type="id" name="harass_call_show_marked_number">false</item>
+    <item type="id" name="harass_call_show_icon">false</item>
+    <item type="id" name="harass_call_show_mark_number">false</item>
+    <item type="id" name="harass_call_show_mark_number_desc">false</item>
+    <item type="id" name="harass_call_show_mark_close">false</item>
+    <item type="id" name="harass_call_show_mark_list">false</item>
+    <item type="id" name="harass_call_show_oper">false</item>
+    <item type="id" name="harass_call_show_check">false</item>
+    <item type="id" name="harass_call_show_mark_add_blacklist">false</item>
+    <item type="id" name="harass_call_show_mark_save_button">false</item>
+    <item type="id" name="harass_call_show_mark_button">false</item>
+    <item type="id" name="mark_bother">false</item>
+    <item type="id" name="bother_textview">false</item>
+    <item type="id" name="bother_radiobutton">false</item>
+    <item type="id" name="harass_common_list">false</item>
+    <item type="id" name="harass_common_list_item_icon">false</item>
+    <item type="id" name="harass_common_list_item_title">false</item>
+    <item type="id" name="harass_common_list_item_forward">false</item>
+    <item type="id" name="harass_common_list_item_prompt">false</item>
+    <item type="id" name="harass_pop_title">false</item>
+    <item type="id" name="harass_dialog_item1">false</item>
+    <item type="id" name="dialpad">false</item>
+    <item type="id" name="one">false</item>
+    <item type="id" name="two">false</item>
+    <item type="id" name="three">false</item>
+    <item type="id" name="four">false</item>
+    <item type="id" name="five">false</item>
+    <item type="id" name="six">false</item>
+    <item type="id" name="seven">false</item>
+    <item type="id" name="eight">false</item>
+    <item type="id" name="nine">false</item>
+    <item type="id" name="harass_dail_reset">false</item>
+    <item type="id" name="zero">false</item>
+    <item type="id" name="harass_dail_submit">false</item>
+    <item type="id" name="mylist">false</item>
+    <item type="id" name="harass_intercept_call_no_records_view">false</item>
+    <item type="id" name="harass_intercept_call_no_records">false</item>
+    <item type="id" name="list_item_layout">false</item>
+    <item type="id" name="top_place_holder">false</item>
+    <item type="id" name="state">false</item>
+    <item type="id" name="phone_number">false</item>
+    <item type="id" name="timestamp">false</item>
+    <item type="id" name="phone_number_belong_to">false</item>
+    <item type="id" name="description">false</item>
+    <item type="id" name="more_layout">false</item>
+    <item type="id" name="button_call_back">false</item>
+    <item type="id" name="button_more">false</item>
+    <item type="id" name="harass_digits_container">false</item>
+    <item type="id" name="harass_digits">false</item>
+    <item type="id" name="harass_delete_button">false</item>
+    <item type="id" name="bother_checkBox">false</item>
+    <item type="id" name="harass_harass_mark_list">false</item>
+    <item type="id" name="harass_marker_number">false</item>
+    <item type="id" name="harass_tips_title">false</item>
+    <item type="id" name="harass_stranger_tips_summary">false</item>
+    <item type="id" name="harass_stranger_tips_switch">false</item>
+    <item type="id" name="harass_settings_title">false</item>
+    <item type="id" name="harass_settings_summary">false</item>
+    <item type="id" name="harass_intercept_switch">false</item>
+    <item type="id" name="harass_rule">false</item>
+    <item type="id" name="intercept_black_text">false</item>
+    <item type="id" name="intercept_black_incoming">false</item>
+    <item type="id" name="intercept_black_status">false</item>
+    <item type="id" name="intercept_black">false</item>
+    <item type="id" name="intercept_stranger_text">false</item>
+    <item type="id" name="intercept_stranger_incoming">false</item>
+    <item type="id" name="intercept_stranger_status">false</item>
+    <item type="id" name="intercept_stranger">false</item>
+    <item type="id" name="intecept_all_text">false</item>
+    <item type="id" name="intercept_all_incoming">false</item>
+    <item type="id" name="intecept_all_status">false</item>
+    <item type="id" name="intercept_all">false</item>
+    <item type="id" name="sms_number">false</item>
+    <item type="id" name="sms_content">false</item>
+    <item type="id" name="sms_delete_checkbox">false</item>
+    <item type="id" name="operation">false</item>
+    <item type="id" name="delete_item">false</item>
+    <item type="id" name="report">false</item>
+    <item type="id" name="more">false</item>
+    <item type="id" name="nubia_agreement_entry_view">false</item>
+    <item type="id" name="nbsecurity_prompt_title">false</item>
+    <item type="id" name="nbsecurity_prompt_content">false</item>
+    <item type="id" name="nbsecurity_prompt_cancle">false</item>
+    <item type="id" name="nbsecurity_prompt_ok">false</item>
+    <item type="id" name="setup_wizard_icon_view">false</item>
+    <item type="id" name="setup_wizard_center_vertical_flag">false</item>
+    <item type="id" name="setup_wizard_app_name">false</item>
+    <item type="id" name="gallery_rl">false</item>
+    <item type="id" name="viewpager">false</item>
+    <item type="id" name="layout_title">false</item>
+    <item type="id" name="left_top_button_layout">false</item>
+    <item type="id" name="back">false</item>
+    <item type="id" name="position_indicator">false</item>
+    <item type="id" name="layout_footer">false</item>
+    <item type="id" name="edit_operation_container">false</item>
+    <item type="id" name="delete_button">false</item>
+    <item type="id" name="decrypt_button">false</item>
+    <item type="id" name="delete_confirm_button">false</item>
+    <item type="id" name="traffic_listview_bigdot">false</item>
+    <item type="id" name="traffic_listview_item">false</item>
+    <item type="id" name="left_list_item_content">false</item>
+    <item type="id" name="feed_activity_item_comment">false</item>
+    <item type="id" name="traffic_listview_item_appicon">false</item>
+    <item type="id" name="traffic_listview_item_app_off_line">false</item>
+    <item type="id" name="traffic_listview_item_appname">false</item>
+    <item type="id" name="traffic_listview_item_apptraffic">false</item>
+    <item type="id" name="main_mask">false</item>
+    <item type="id" name="title_layout">false</item>
+    <item type="id" name="feedback_btn">false</item>
+    <item type="id" name="main_fragment_home_title">false</item>
+    <item type="id" name="setting_btn">false</item>
+    <item type="id" name="toolsbar_layout">false</item>
+    <item type="id" name="privacy_guard_view">false</item>
+    <item type="id" name="mail_operation">false</item>
+    <item type="id" name="textsize">false</item>
+    <item type="id" name="mailcontent">false</item>
+    <item type="id" name="mainFragmentLayout">false</item>
+    <item type="id" name="main_detailFrame">false</item>
+    <item type="id" name="privacy_password">false</item>
+    <item type="id" name="speedup_layout">false</item>
+    <item type="id" name="optFrameLayout">false</item>
+    <item type="id" name="cleanupImageView">false</item>
+    <item type="id" name="ringImageView">false</item>
+    <item type="id" name="lightImageView">false</item>
+    <item type="id" name="progressTextView">false</item>
+    <item type="id" name="main_fragment_modgrid">false</item>
+    <item type="id" name="itemview">false</item>
+    <item type="id" name="text_view">false</item>
+    <item type="id" name="smsdate">false</item>
+    <item type="id" name="more_operate_dialog_title">false</item>
+    <item type="id" name="more_operate_dialog_call_back">false</item>
+    <item type="id" name="more_operate_dialog_add_in_blacklist">false</item>
+    <item type="id" name="more_operate_dialog_delete_record">false</item>
+    <item type="id" name="traffic_state_relativeLayout">false</item>
+    <item type="id" name="clear_title_back">false</item>
+    <item type="id" name="traffic_title">false</item>
+    <item type="id" name="clearFrameLayout">false</item>
+    <item type="id" name="cleanupImageView1">false</item>
+    <item type="id" name="cleanupImageView2">false</item>
+    <item type="id" name="animationDrawableImageView">false</item>
+    <item type="id" name="cleartitle">false</item>
+    <item type="id" name="clearlayout">false</item>
+    <item type="id" name="memory_detail_textview">false</item>
+    <item type="id" name="selfstart_detail_textview">false</item>
+    <item type="id" name="space_detail_textview">false</item>
+    <item type="id" name="privacy_add">false</item>
+    <item type="id" name="privacy_checkbox_buttom">false</item>
+    <item type="id" name="privacy_audio_title">false</item>
+    <item type="id" name="privacy_audio_button">false</item>
+    <item type="id" name="image_add_button">false</item>
+    <item type="id" name="image_edit_button">false</item>
+    <item type="id" name="privacy_audio_no_content">false</item>
+    <item type="id" name="privacy_audio_no_text">false</item>
+    <item type="id" name="audiolistView">false</item>
+    <item type="id" name="privacy_audio_multi_list">false</item>
+    <item type="id" name="privacy_calllog_no_content">false</item>
+    <item type="id" name="privacy_calllog_list">false</item>
+    <item type="id" name="privacy_calllog_type_name">false</item>
+    <item type="id" name="privacy_calllog_type_image">false</item>
+    <item type="id" name="contacts_name">false</item>
+    <item type="id" name="contacts_num">false</item>
+    <item type="id" name="privacy_calllog_date_time">false</item>
+    <item type="id" name="privacy_confirm_check_layout_area">false</item>
+    <item type="id" name="privacy_confirm">false</item>
+    <item type="id" name="privacy_photo_check">false</item>
+    <item type="id" name="photo_select_title">false</item>
+    <item type="id" name="privacy_contacts_add_new">false</item>
+    <item type="id" name="contacts_add_new">false</item>
+    <item type="id" name="privacy_contacts_add_phonebook">false</item>
+    <item type="id" name="contacts_add_phonebook">false</item>
+    <item type="id" name="contacts_add_name">false</item>
+    <item type="id" name="contacts_add_num">false</item>
+    <item type="id" name="privacy_multi_list_item_check">false</item>
+    <item type="id" name="contacts_list">false</item>
+    <item type="id" name="contact_name">false</item>
+    <item type="id" name="contact_number">false</item>
+    <item type="id" name="privacy_contacts_edit_list">false</item>
+    <item type="id" name="contacts_edit_button">false</item>
+    <item type="id" name="first_line">false</item>
+    <item type="id" name="second_line">false</item>
+    <item type="id" name="contacts_select_tab">false</item>
+    <item type="id" name="contacts_add_button">false</item>
+    <item type="id" name="privacy_contacts_no_content">false</item>
+    <item type="id" name="privacy_contacts_list">false</item>
+    <item type="id" name="privacy_contacts_message">false</item>
+    <item type="id" name="privacy_contacts_call">false</item>
+    <item type="id" name="privacy_table_contacts">false</item>
+    <item type="id" name="privacy_table_callhistory">false</item>
+    <item type="id" name="privacy_table_message">false</item>
+    <item type="id" name="privacy_delete">false</item>
+    <item type="id" name="privacy_decryption">false</item>
+    <item type="id" name="privacy_check">false</item>
+    <item type="id" name="privacy_multi_list">false</item>
+    <item type="id" name="privacy_document_title">false</item>
+    <item type="id" name="privacy_document_button">false</item>
+    <item type="id" name="privacy_document_no_content">false</item>
+    <item type="id" name="privacy_document_no_text">false</item>
+    <item type="id" name="privacy_list">false</item>
+    <item type="id" name="privacy_list_item_img">false</item>
+    <item type="id" name="privacy_list_item_string">false</item>
+    <item type="id" name="privacy_multi_list_item_img">false</item>
+    <item type="id" name="privacy_multi_list_item_text">false</item>
+    <item type="id" name="privacy_image_title">false</item>
+    <item type="id" name="privacy_image_button">false</item>
+    <item type="id" name="privacy_image_no_content">false</item>
+    <item type="id" name="privacy_image_no_text">false</item>
+    <item type="id" name="imagegridview">false</item>
+    <item type="id" name="privacymainui">false</item>
+    <item type="id" name="privacy_main_menu_top">false</item>
+    <item type="id" name="privacy_contact_img">false</item>
+    <item type="id" name="privacy_grid_view">false</item>
+    <item type="id" name="privacy_item_img">false</item>
+    <item type="id" name="privacy_item_name">false</item>
+    <item type="id" name="privacy_title_back">false</item>
+    <item type="id" name="privacy_title_setting">false</item>
+    <item type="id" name="privacy_title">false</item>
+    <item type="id" name="privacy_message_no_content">false</item>
+    <item type="id" name="privacy_message_list">false</item>
+    <item type="id" name="privacy_photo_album_first_img">false</item>
+    <item type="id" name="privacy_photo_album_name">false</item>
+    <item type="id" name="privacy_photo_album_image">false</item>
+    <item type="id" name="privacy_photo_album_imge_count">false</item>
+    <item type="id" name="privacy_photo_grid">false</item>
+    <item type="id" name="photo_album_select_title">false</item>
+    <item type="id" name="photo_album_select_grid">false</item>
+    <item type="id" name="photo_album_select_button">false</item>
+    <item type="id" name="photo_select_tab">false</item>
+    <item type="id" name="privacy_photo_select_img">false</item>
+    <item type="id" name="privacy_photo_select_img_check_box">false</item>
+    <item type="id" name="privacy_table_photo_camera">false</item>
+    <item type="id" name="privacy_table_photo_album">false</item>
+    <item type="id" name="privacy_restore_text_title">false</item>
+    <item type="id" name="privacy_restore_text_content">false</item>
+    <item type="id" name="privacy_restore_confirm">false</item>
+    <item type="id" name="privacy_restore_cancel">false</item>
+    <item type="id" name="fragment_title">false</item>
+    <item type="id" name="file_path">false</item>
+    <item type="id" name="main_list">false</item>
+    <item type="id" name="privacy_sd_browser_file_icon">false</item>
+    <item type="id" name="privacy_sd_browser_choose_item">false</item>
+    <item type="id" name="privacy_sd_browser_file_name">false</item>
+    <item type="id" name="privacy_change_psd">false</item>
+    <item type="id" name="privacy_change_safe_question">false</item>
+    <item type="id" name="video_select_title">false</item>
+    <item type="id" name="privacy_photo_album_grid_list">false</item>
+    <item type="id" name="remoteguard_main_ui">false</item>
+    <item type="id" name="remoteguard_common_input_password">false</item>
+    <item type="id" name="remoteguard_common_inputpwd_backdelete">false</item>
+    <item type="id" name="remoteguard_guarding_image">false</item>
+    <item type="id" name="remoteguard_rating">false</item>
+    <item type="id" name="remoteguard_guarding_hint">false</item>
+    <item type="id" name="remoteguard_option_listView">false</item>
+    <item type="id" name="remoteguard_listView">false</item>
+    <item type="id" name="remoteguard_intput_password_tile">false</item>
+    <item type="id" name="remoteguard_input_password">false</item>
+    <item type="id" name="remoteguard_password_setting_title">false</item>
+    <item type="id" name="remoteguard_password_strength_indicator">false</item>
+    <item type="id" name="remoteguard_input_password_again">false</item>
+    <item type="id" name="remoteguard_setting_urgent_contact_tile">false</item>
+    <item type="id" name="remoteguard_urgent_contact_number">false</item>
+    <item type="id" name="remoteguard_urgent_select_contact_list">false</item>
+    <item type="id" name="remoteguard_check_send_sms_to_urgent_contact_view">false</item>
+    <item type="id" name="remoteguard_check_send_sms_to_urgent_contact">false</item>
+    <item type="id" name="remoteguard_radiogroup_sim_send_sms_to_urgent_contact">false</item>
+    <item type="id" name="remoteguard_button_sim1_send_sms_to_urgent_contact">false</item>
+    <item type="id" name="remoteguard_button_sim2_send_sms_to_urgent_contact">false</item>
+    <item type="id" name="remoteguard_your_name">false</item>
+    <item type="id" name="remotegard_imageView">false</item>
+    <item type="id" name="remotegard_name_textView">false</item>
+    <item type="id" name="remotegard_subname_textView">false</item>
+    <item type="id" name="remotegard_item_image">false</item>
+    <item type="id" name="command_illustrate_title">false</item>
+    <item type="id" name="command_illustrate_title_postfix">false</item>
+    <item type="id" name="command_illustrate_list_view">false</item>
+    <item type="id" name="illustrate_image">false</item>
+    <item type="id" name="illustrate_text">false</item>
+    <item type="id" name="remoteguard_send_password_cancle">false</item>
+    <item type="id" name="remoteguard_send_password_ok">false</item>
+    <item type="id" name="remoteguard_screenlock_input_password">false</item>
+    <item type="id" name="remoteguard_screenlock_backdelete">false</item>
+    <item type="id" name="remoteguard_password_error_hint">false</item>
+    <item type="id" name="remoteguard_find_password">false</item>
+    <item type="id" name="remoteguard_find_password_view">false</item>
+    <item type="id" name="remoteguard_password_sended">false</item>
+    <item type="id" name="remoteguard_password_check">false</item>
+    <item type="id" name="setting_item_name">false</item>
+    <item type="id" name="Item_image">false</item>
+    <item type="id" name="Item_Checkbox">false</item>
+    <item type="id" name="right_listview_item_content">false</item>
+    <item type="id" name="scanningTextview">false</item>
+    <item type="id" name="scanningImageview">false</item>
+    <item type="id" name="settings_detect_version_progress">false</item>
+    <item type="id" name="settings_icon_view">false</item>
+    <item type="id" name="settings_btn_layout">false</item>
+    <item type="id" name="settings_version_detect_btn">false</item>
+    <item type="id" name="settings_version_text">false</item>
+    <item type="id" name="settings_notification">false</item>
+    <item type="id" name="settings_wifi_auto_download_new_version">false</item>
+    <item type="id" name="settings_nubia_exit">false</item>
+    <item type="id" name="settings_nubia_feedback">false</item>
+    <item type="id" name="settings_about_title">false</item>
+    <item type="id" name="settings_switch_item_name">false</item>
+    <item type="id" name="settings_switch_btn">false</item>
+    <item type="id" name="settings_sub_name">false</item>
+    <item type="id" name="notification_title">false</item>
+    <item type="id" name="notification_text">false</item>
+    <item type="id" name="settings_update_dialog_title">false</item>
+    <item type="id" name="settings_update_dialog_version_name">false</item>
+    <item type="id" name="settings_update_dialog_version_size">false</item>
+    <item type="id" name="settings_update_dialog_content">false</item>
+    <item type="id" name="settings_update_dialog_operator">false</item>
+    <item type="id" name="settings_update_dialog_not_update">false</item>
+    <item type="id" name="settings_update_dialog_now_update">false</item>
+    <item type="id" name="setup_wizard_finish">false</item>
+    <item type="id" name="setup_wizard_agree_checkbox">false</item>
+    <item type="id" name="setup_wizard_nubia_agreement">false</item>
+    <item type="id" name="setup_wizard_app_version">false</item>
+    <item type="id" name="setting">false</item>
+    <item type="id" name="module_item_layout">false</item>
+    <item type="id" name="item_icon">false</item>
+    <item type="id" name="item_name">false</item>
+    <item type="id" name="traffic_check_title">false</item>
+    <item type="id" name="traffic_check_month_used">false</item>
+    <item type="id" name="traffic_setting_check">false</item>
+    <item type="id" name="traffic_quota_input_edt">false</item>
+    <item type="id" name="traffic_check_get_traffic">false</item>
+    <item type="id" name="traffic_check_search">false</item>
+    <item type="id" name="traffic_list_line_bg">false</item>
+    <item type="id" name="traffic_list_view">false</item>
+    <item type="id" name="traffic_list_app_img">false</item>
+    <item type="id" name="traffic_list_app_name">false</item>
+    <item type="id" name="traffic_list_app_flow">false</item>
+    <item type="id" name="traffic_lock_screen_view_title">false</item>
+    <item type="id" name="traffic_lock_screen_view_message">false</item>
+    <item type="id" name="traffic_lock_screen_view_devide_up">false</item>
+    <item type="id" name="traffic_lock_screen_view_list">false</item>
+    <item type="id" name="traffic_lock_screen_view_devide_down">false</item>
+    <item type="id" name="traffic_lock_screen_view_oper">false</item>
+    <item type="id" name="traffic_lock_screen_view_check">false</item>
+    <item type="id" name="traffic_lock_screen_view_button">false</item>
+    <item type="id" name="traffic_linearlayout">false</item>
+    <item type="id" name="traffic_over_dialog_title">false</item>
+    <item type="id" name="traffic_over_dialog_content">false</item>
+    <item type="id" name="traffic_over_dialog_oper">false</item>
+    <item type="id" name="traffic_over_dialog_check">false</item>
+    <item type="id" name="traffic_over_dialog_yes">false</item>
+    <item type="id" name="traffic_over_dialog_no">false</item>
+    <item type="id" name="traffic_top_title">false</item>
+    <item type="id" name="trafic_check_layout">false</item>
+    <item type="id" name="traffic_quota_value">false</item>
+    <item type="id" name="wheel_billday">false</item>
+    <item type="id" name="traffic_bottom_btn">false</item>
+    <item type="id" name="traffic_btn_cancel">false</item>
+    <item type="id" name="traffic_btn_ok">false</item>
+    <item type="id" name="traffic_state_bg">false</item>
+    <item type="id" name="traffic_qota_month_btn">false</item>
+    <item type="id" name="traffic_button_top_txt2">false</item>
+    <item type="id" name="traffic_main_quota_mobile">false</item>
+    <item type="id" name="traffic_state_framelayout">false</item>
+    <item type="id" name="pb">false</item>
+    <item type="id" name="pb_textlayout_img">false</item>
+    <item type="id" name="pb_textlayout">false</item>
+    <item type="id" name="inner_circle_top_sim_id">false</item>
+    <item type="id" name="inner_circle_state">false</item>
+    <item type="id" name="inner_circle_center">false</item>
+    <item type="id" name="inner_circle_center_no_card">false</item>
+    <item type="id" name="inner_circle_center_quota_no_set">false</item>
+    <item type="id" name="inner_circle_center_traffic">false</item>
+    <item type="id" name="inner_circle_value_and_unit">false</item>
+    <item type="id" name="inner_circle_center_value">false</item>
+    <item type="id" name="inner_circle_center_unit">false</item>
+    <item type="id" name="inner_circle_quato_value">false</item>
+    <item type="id" name="inner_circle_bottom_btn">false</item>
+    <item type="id" name="traffic_cycle_line_gap_layout">false</item>
+    <item type="id" name="traffic_cycle_line_gap">false</item>
+    <item type="id" name="traffic_warning_dialog_title">false</item>
+    <item type="id" name="traffic_warning_dialog_content">false</item>
+    <item type="id" name="traffic_warning_dialog_cancel">false</item>
+    <item type="id" name="traffic_warning_dialog_ok">false</item>
+    <item type="id" name="traffic_tvPop">false</item>
+    <item type="id" name="tab_firewall_layout">false</item>
+    <item type="id" name="traffic_warning_value">false</item>
+    <item type="id" name="traffic_setting_check_btn">false</item>
+    <item type="id" name="traffic_setting_notify_screen_lock">false</item>
+    <item type="id" name="sim1">false</item>
+    <item type="id" name="sim1_text">false</item>
+    <item type="id" name="sim1_line">false</item>
+    <item type="id" name="sim2">false</item>
+    <item type="id" name="sim2_line">false</item>
+    <item type="id" name="action_settings">false</item>
+    <item type="id" name="privacy_space_setting">false</item>
+</resources>

@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_camera_powermode_title">省电模式</string>
+    <string name="pref_camera_autoexposure_title">测光方式</string>
+    <string name="pref_camera_autoexposure_entry_frameaverage">帧平均</string>
+    <string name="pref_camera_autoexposure_entry_centerweighted">中央加权</string>
+    <string name="pref_camera_autoexposure_entry_spotmetering">点测光</string>
+    <string name="pref_camera_video_duration_entry_10">10分钟</string>
+    <string name="pref_camera_video_duration_entry_30">30 分钟</string>
+    <string name="pref_camera_skinToneEnhancement_entry_enable">启用</string>
+    <string name="pref_camera_skinToneEnhancement_entry_disable">关闭</string>
+    <string name="pref_camera_zsl_title">零秒快拍(ZSL)</string>
+    <string name="pref_camera_selectablezoneaf_entry_auto">自动</string>
+    <string name="pref_camera_zsl_entry_on">开</string>
+    <string name="pref_camera_zsl_entry_off">关</string>
+    <string name="pref_camera_facedetection_title">人脸识别</string>
+    <string name="pref_camera_facedetection_entry_off">关</string>
+    <string name="pref_camera_facedetection_entry_on">开</string>
+    <string name="pref_camera_redeyereduction_entry_enable">启用</string>
+    <string name="pref_camera_redeyereduction_entry_disable">关闭</string>
+    <string name="error_app_unsupported_hfr_2">高速录像只支持720P及480P</string>
+    <string name="error_app_unsupported_hfr_3">高速录像只支持480P</string>
+    <string name="error_app_unsupported_hfr">当前视频质量不支持高速录像</string>
+    <string name="pref_camera_ae_bracket_hdr_title">HDR</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">关闭。</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_hdr">HDR</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_on">打开。</string>
+    <string name="snapshot_qcif_and_d1">仅视频大小快照支持该分辨率</string>
+    <string name="pref_camera_hfr_title">高速录像</string>
+    <string name="pref_camera_hfr_entry_off">关闭。</string>
+    <string name="pref_camera_hfr_entry_3x">90</string>
+    <string name="pref_camera_denoise_title2">降噪</string>
+    <string name="pref_camera_denoise_entry_off">关</string>
+    <string name="pref_camera_denoise_entry_on">开</string>
+    <string name="pref_camera_iso_title2">ISO</string>
+    <string name="pref_camera_iso_entry_auto">自动</string>
+    <string name="pref_camera_iso_entry_isodeblur">自动(HJR)</string>
+    <string name="pref_camera_iso_entry_iso100">100</string>
+    <string name="pref_camera_iso_entry_iso200">200</string>
+    <string name="pref_camera_iso_entry_iso400">400</string>
+    <string name="pref_camera_iso_entry_iso800">800</string>
+    <string name="pref_camera_iso_entry_iso1600">1600</string>
+    <string name="pref_camera_antibanding_entry_0">关闭。</string>
+    <string name="pref_camera_antibanding_entry_3">自动</string>
+    <string name="pref_camera_coloreffect_title">滤镜</string>
+    <string name="pref_camera_coloreffect_entry_none">无</string>
+    <string name="pref_camera_coloreffect_entry_mono">单声道</string>
+    <string name="pref_camera_touchafaec_entry_off">关闭。</string>
+    <string name="pref_camera_touchafaec_entry_on">打开。</string>
+    <string name="pref_camera_sharpness_entry_level2">-1</string>
+    <string name="pref_camera_sharpness_entry_level3">0</string>
+    <string name="pref_camera_sharpness_entry_level4">1</string>
+    <string name="pref_camera_contrast_entry_level4">-1</string>
+    <string name="pref_camera_contrast_entry_level5">0</string>
+    <string name="pref_camera_contrast_entry_level6">1</string>
+    <string name="pref_camera_saturation_entry_level4">-1</string>
+    <string name="pref_camera_saturation_entry_level5">0</string>
+    <string name="pref_camera_saturation_entry_level6">1</string>
+    <string name="pref_camera_sharpness_title">锐度</string>
+    <string name="pref_camera_contrast_title">对比度</string>
+    <string name="pref_camera_saturation_title">饱和度</string>
+    <string name="pref_camera_jpegquality_entry_normal">普通</string>
+    <string name="pref_camera_histogram_entry_enable">启用</string>
+    <string name="pref_camera_histogram_entry_disable">关闭</string>
+    <string name="pref_camera_picturesize_entry_4000x3000">1200万像素</string>
+    <string name="pref_camera_picturesize_entry_5248x3936">2000万像素</string>
+    <string name="pref_camera_picturesize_entry_5344x3000">1600万像素</string>
+    <string name="pref_camera_picturesize_entry_4208x3120">1300万像素</string>
+    <string name="pref_camera_picturesize_entry_4128x2322">900万像素</string>
+    <string name="pref_camera_picturesize_entry_3280x2464">800万像素</string>
+    <string name="pref_camera_picturesize_entry_3264x2448">800万像素</string>
+    <string name="pref_camera_picturesize_entry_3200x2400">800万像素</string>
+    <string name="pref_camera_picturesize_entry_2592x1944">5 百万像素</string>
+    <string name="pref_camera_picturesize_entry_2592x1456">400万像素</string>
+    <string name="pref_camera_focusmode_entry_normal">标准</string>
+    <string name="pref_camera_focusmode_entry_continuous">连续自动对焦</string>
+    <string name="pref_camera_scenemode_entry_sports">体育</string>
+    <string name="pref_camera_scenedetect_entry_off">关闭。</string>
+    <string name="pref_camera_scenedetect_entry_on">打开。</string>
+    <string name="camera_error_title">相机故障</string>
+    <string name="cannot_connect_camera">无法连接到相机。</string>
+    <string name="camera_disabled">由于安全政策的限制，相机已被停用。</string>
+    <string name="camera_label">相机</string>
+    <string name="video_camera_label">摄像机</string>
+    <string name="gallery_camera_bucket_name">用相机拍摄的照片</string>
+    <string name="gallery_camera_videos_bucket_name">用相机拍摄的视频</string>
+    <string name="wait">请稍候...</string>
+    <string name="not_enough_space">您的 USB 存储设备空间已满。</string>
+    <string name="preparing_sd">正在准备 USB 存储设备...</string>
+    <string name="access_sd_fail">无法访问 USB 存储设备。</string>
+    <string name="confirm_restore_message">恢复相机设置为默认值</string>
+    <string name="review_play">播放</string>
+    <string name="review_cancel">取消</string>
+    <string name="review_ok">完成</string>
+    <string name="review_retake">重拍</string>
+    <string name="camera_gallery_photos_text">图库</string>
+    <string name="time_lapse_title">延时录制</string>
+    <string name="pref_camera_id_title">选择摄像头</string>
+    <string name="pref_camera_id_entry_back">背面相机</string>
+    <string name="pref_camera_id_entry_front">正面相机</string>
+    <string name="pref_camera_recordlocation_title">位置标签</string>
+    <string name="pref_camera_recordlocation_entry_off">关闭</string>
+    <string name="pref_camera_recordlocation_entry_on">开</string>
+    <string name="pref_video_quality_title">视频质量</string>
+    <string name="pref_video_time_lapse_frame_interval_title">延时间隔</string>
+    <string name="pref_camera_settings_category">相机设置</string>
+    <string name="pref_camcorder_settings_category">摄像机设置</string>
+    <string name="pref_camera_picturesize_title">照片大小</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">500万像素</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">300万像素</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">200万像素</string>
+    <string name="pref_camera_picturesize_entry_1280x960">130万像素</string>
+    <string name="pref_camera_picturesize_entry_1024x768">100万像素</string>
+    <string name="pref_camera_picturesize_entry_640x480">VGA</string>
+    <string name="pref_camera_picturesize_entry_320x240">QVGA</string>
+    <string name="pref_camera_focusmode_title">对焦方式</string>
+    <string name="pref_camera_focusmode_entry_auto">自动</string>
+    <string name="pref_camera_focusmode_entry_infinity">手动</string>
+    <string name="pref_camera_focusmode_entry_macro">微距</string>
+    <string name="pref_camera_flashmode_title">闪光模式</string>
+    <string name="pref_camera_flashmode_entry_auto">自动</string>
+    <string name="pref_camera_flashmode_entry_on">打开</string>
+    <string name="pref_camera_flashmode_entry_off">关闭</string>
+    <string name="pref_camera_whitebalance_title">白平衡</string>
+    <string name="pref_camera_whitebalance_entry_auto">自动</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">白炽光</string>
+    <string name="pref_camera_whitebalance_entry_daylight">日光</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">荧光</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">阴天</string>
+    <string name="pref_camera_scenemode_title">取景模式</string>
+    <string name="pref_camera_scenemode_entry_auto">自动</string>
+    <string name="pref_camera_scenemode_entry_action">运动</string>
+    <string name="pref_camera_scenemode_entry_night">夜景</string>
+    <string name="pref_camera_scenemode_entry_sunset">日落</string>
+    <string name="pref_camera_scenemode_entry_party">派对</string>
+    <string name="not_selectable_in_scene_mode">无法在取景模式下选择。</string>
+    <string name="pref_restore_title">相机设置</string>
+    <string name="pref_restore_detail">恢复默认</string>
+    <string name="pref_exposure_title">曝光补偿</string>
+    <string name="dialog_ok">确定</string>
+    <string name="spaceIsLow_content">USB 存储设备空间不足，请更改照片品质设置，或删除某些照片或者其他文件。</string>
+    <string name="video_reach_size_limit">已达到大小上限。</string>
+    <string name="share_picture_via">照片分享方式</string>
+    <string name="share_video_via">视频分享方式</string>
+    <string name="no_picture_to_share">无照片可分享。</string>
+    <string name="no_video_to_share">无视频可分享。</string>
+    <string name="pano_too_fast_prompt">过快</string>
+    <string name="pano_dialog_prepare_preview">正在生成全景图</string>
+    <string name="pano_dialog_panorama_failed">"生成全景图片时出错，
+请在拍摄时平稳移动相机"</string>
+    <string name="pano_dialog_title">全景图</string>
+    <string name="pano_capture_indication">正在拍摄全景照片</string>
+    <string name="pano_dialog_waiting_previous">正在等待上一幅全景照片处理完毕</string>
+    <string name="pano_review_saving_indication_str">正在保存...</string>
+    <string name="tap_to_focus">触摸对焦。</string>
+    <string name="pref_video_effect_title">效果</string>
+    <string name="effect_none">无</string>
+    <string name="effect_goofy_face_squeeze">面部哈哈镜</string>
+    <string name="effect_goofy_face_big_eyes">大眼睛</string>
+    <string name="effect_goofy_face_big_mouth">大嘴巴</string>
+    <string name="effect_goofy_face_small_mouth">小嘴巴</string>
+    <string name="effect_goofy_face_big_nose">大鼻子</string>
+    <string name="effect_goofy_face_small_eyes">小眼睛</string>
+    <string name="effect_backdropper_space">太空背景</string>
+    <string name="effect_backdropper_sunset">日落</string>
+    <string name="effect_backdropper_gallery">您的视频</string>
+    <string name="bg_replacement_message">"把设备放好。
+离开镜头前片刻。"</string>
+    <string name="not_selectable_in_effect">无法在启用效果时选择。</string>
+    <string name="video_snapshot_hint">在录制视频过程中，轻触一下即可拍一张照片。</string>
+    <string name="clear_effects">清除效果</string>
+    <string name="effect_silly_faces">趣味表情</string>
+    <string name="effect_background">背景</string>
+    <string name="accessibility_shutter_button">“快门”按钮</string>
+    <string name="accessibility_review_thumbnail">最新照片</string>
+    <string name="accessibility_camera_picker">前视和后视相机开关</string>
+    <string name="accessibility_mode_picker">相机、视频或全景模式选择器</string>
+    <string name="accessibility_second_level_indicators">更多设置控件</string>
+    <string name="accessibility_back_to_first_level">关闭设置控件</string>
+    <string name="accessibility_zoom_control">缩放控件</string>
+    <string name="accessibility_decrement">减少%1$s</string>
+    <string name="accessibility_increment">增加%1$s</string>
+    <string name="accessibility_switch">%1$s开关</string>
+    <string name="accessibility_switch_to_camera">切换到拍照模式</string>
+    <string name="accessibility_switch_to_video">切换到视频模式</string>
+    <string name="accessibility_switch_to_panorama">切换到全景模式</string>
+    <string name="skip">跳过引导</string>
+    <string name="jump">跳出</string>
+    <string name="start">开始</string>
+    <string name="welcom_page1_text_main">三大摄影模式</string>
+    <string name="welcom_page1_text_sub">"自由切换  乐享多种拍摄乐趣"</string>
+    <string name="welcom_page2_text_main">对焦测光分离</string>
+    <string name="welcom_page2_text_sub">"专业摄影  媲美单反相机效果"</string>
+    <string name="welcom_page3_text_main">多重曝光</string>
+    <string name="welcom_page3_text_sub">"玩转创意  摄影惊喜无处不在"</string>
+    <string name="welcom_to_nubia_camera">欢迎使用 nubia 相机</string>
+    <string name="camera_save_done">保存完成</string>
+    <string name="camera_picture_Saving">正在保存...</string>
+    <string name="close_flash_in_low_power_mode">电池电量低，请不要使用闪光灯！</string>
+    <string name="effects_pretty">美肤</string>
+    <string name="effects_vivid">水彩</string>
+    <string name="effects_comic">漫画</string>
+    <string name="effects_relic">旧时光</string>
+    <string name="effects_lomo">LOMO</string>
+    <string name="effects_bake">日光</string>
+    <string name="effects_selectcolor">黑白</string>
+    <string name="effects_warm">暖色调</string>
+    <string name="effects_country">复古</string>
+    <string name="effects_nature">效果增强</string>
+    <string name="effects_miniature">移轴</string>
+    <string name="effects_fisheye">鱼眼</string>
+    <string name="exposuretime_title">曝光时间</string>
+    <string name="focus_title">对焦</string>
+    <string name="other_settings_show">显示其他设置</string>
+    <string name="polarizing_filter_title">偏光滤镜</string>
+    <string name="pref_camera_autoexposure_entry_focus_exposure_separation">测光分离</string>
+    <string name="card_recognition">请将名片置于屏幕中央，然后按下快门。</string>
+    <string name="phone_space_low">手机存储空间不足，请删除某些照片或文件</string>
+    <string name="no_storage">无存储</string>
+    <string name="high_setting_slow_shutter_title">快门速度</string>
+    <string name="high_setting_manual_focus_title">焦距</string>
+    <string name="camera_app_name">相机</string>
+    <string name="no_storage_available">没有手机存储可用。</string>
+    <string name="no_storage_available_usb">已打开USB大容量存储，相机暂不可用</string>
+    <string name="panorama_tip">&lt;&lt;&lt; 按下拍照键并沿一个方向缓缓移动手机 >>></string>
+    <string name="cannot_conflic_close_light">相机冲突，请关闭手电筒</string>
+    <string name="cannot_conflic_exit_flashlight">相机冲突，请退出手电筒重试</string>
+    <string name="media_recorder_resource_conflic">录音资源被占用，请关闭相关应用</string>
+    <string name="pref_camera_pretty_title">美肤</string>
+    <string name="pref_camera_pretty_entry_off">关闭。</string>
+    <string name="pref_camera_pretty_entry_on">打开。</string>
+    <string name="pref_camera_smile_shoot_entry_off">关闭。</string>
+    <string name="pref_camera_smile_shoot_entry_on">打开。</string>
+    <string name="strobe_min">0%</string>
+    <string name="strob_max">100%</string>
+    <string name="strob_default">比例:50%</string>
+    <string name="multi_exposure_combination_text">比例:</string>
+    <string name="multi_exposure_simple">简 单</string>
+    <string name="multi_exposure_alpha">透 明</string>
+    <string name="multi_exposure_background">背 景</string>
+    <string name="multi_exposure_brightness">亮 部</string>
+    <string name="multi_exposure_darkness">暗 部</string>
+    <string name="multi_exposure_symmetry">拼 图</string>
+    <string name="multi_exposure_simple_info">两次拍摄合成到一张照片上</string>
+    <string name="multi_exposure_alpha_info">可以拍摄无限张照片进行合成，</string>
+    <string name="multi_exposure_alpha_info2">点击结束按钮结束拍摄</string>
+    <string name="multi_exposure_background_info">"保持相机不动拍摄3张，第一张为背景，
+后两张取其和第一张不同的部分合入背景"</string>
+    <string name="multi_exposure_brightness_info">叠加后保留每张照片的明亮部分</string>
+    <string name="multi_exposure_darkness_info">叠加后保留每张照片的暗淡部分</string>
+    <string name="multi_exposure_symmetry_info">需拍摄两次，每次拍摄半张</string>
+    <string name="multi_exposure_num_text">需拍摄%1$d次</string>
+    <string name="multi_exposure_num_text_more">还需拍摄%1$d次</string>
+    <string name="multi_exposure_taken_num_text">已拍摄%1$d次</string>
+    <string name="multi_exposure_background_text1">先拍摄一张背景</string>
+    <string name="multi_exposure_background_text2">保持相机不动，拍摄一张前景</string>
+    <string name="multi_exposure_background_text3">保持相机不动，再拍摄一张前景</string>
+    <string name="multi_exposure_seekbar_text">调节已拍照片透明度</string>
+    <string name="multi_exposure_symmetry_up">先拍摄一半</string>
+    <string name="multi_exposure_symmetry_down">拍摄另一半</string>
+    <string name="multi_exposure_info_left">点击拍照按钮或从本地选择一张图片</string>
+    <string name="multi_exposure_info_right">选取图片</string>
+    <string name="multi_exposure_intervalometer_short_time">5秒</string>
+    <string name="multi_exposure_intervalometer_moderate_time">10秒</string>
+    <string name="multi_exposure_intervalometer_long_time">30秒</string>
+    <string name="multi_exposure_manual_operation">手动</string>
+    <string name="panorama_title">全景相机</string>
+    <string name="fun_effects_title">实时特效</string>
+    <string name="star_track_title">星轨相机</string>
+    <string name="galaxy_photoing_title">星云相机</string>
+    <string name="intervalometer_title">延时摄影</string>
+    <string name="multi_exposure_title">多重曝光</string>
+    <string name="trajectory_title">运动轨迹</string>
+    <string name="video_maker_title">短视频</string>
+    <string name="pip_title">画中画</string>
+    <string name="object_clear_title">路人移除</string>
+    <string name="light_painting_title">光绘相机</string>
+    <string name="startrack_data_save">保存过程照片</string>
+    <string name="intervalometer_min">0秒</string>
+    <string name="intervalometer_max">60秒</string>
+    <string name="intervalometer_num_unit">已拍 %1$d张</string>
+    <string name="intervalometer_interval">间隔时间:</string>
+    <string name="intervalometer_time_s">秒</string>
+    <string name="intervalometer_time_m">分</string>
+    <string name="intervalometer_tip">选择间隔时间</string>
+    <string name="stroage_select">存储位置</string>
+    <string name="cancel">取消</string>
+    <string name="stroage_phone_entry">手机存储</string>
+    <string name="stroage_sdcard_entry">SD 卡</string>
+    <string name="afl_title">自动对焦锁</string>
+    <string name="awbl_title">自动白平衡锁</string>
+    <string name="nightscape_title">夜景</string>
+    <string name="pref_stabilization_title">光学防抖</string>
+    <string name="pref_camera_stabilization_entry_on">开</string>
+    <string name="pref_camera_stabilization_entry_off">关</string>
+    <string name="pref_camera_stabilization_entry_auto">自动</string>
+    <string name="pref_camera_delay_shoot_title">延时拍照</string>
+    <string name="pref_camera_delay_shoot_entry_off">关闭</string>
+    <string name="pref_camera_delay_entry_on_5">5秒</string>
+    <string name="pref_camera_delay_entry_on_10">10秒</string>
+    <string name="pref_camera_delay_entry_on_20">20秒</string>
+    <string name="pref_camera_color_adjust_title">颜色调节</string>
+    <string name="visitor_setting">相机按键设置</string>
+    <string name="visitor_message">长按相机按键可唤醒手机</string>
+    <string name="visitor_yes">是</string>
+    <string name="visitor_no">否</string>
+    <string name="trajectory_tip">必须选择三张以上的图片</string>
+    <string name="trajectory_capture_number">需拍摄 %d 张</string>
+    <string name="trajectory_capture_number_min">5张</string>
+    <string name="trajectory_capture_number_max">15张</string>
+    <string name="trajectory_capture_interval">每隔 %d 毫秒拍一张</string>
+    <string name="trajectory_capture_interval_min">10毫秒</string>
+    <string name="trajectory_capture_interval_max">1秒</string>
+    <string name="trajectory_tip2">拍摄时拿稳手机</string>
+    <string name="pref_camera_grid_title">构图线</string>
+    <string name="pref_camera_grid_style1">九宫格</string>
+    <string name="pref_camera_grid_style2">黄金分割</string>
+    <string name="pref_camera_grid_off">关</string>
+    <string name="pref_camera_gradienter_title">水平仪</string>
+    <string name="pref_camera_gradienter_entry_on">开</string>
+    <string name="pref_camera_gradienter_entry_off">关</string>
+    <string name="camera_restore_title">恢复出厂设置</string>
+    <string name="camera_about_title">关于</string>
+    <string name="camera_suggest_title">提提意见</string>
+    <string name="pref_camera_whitebalance_entry_point_measure">独立</string>
+    <string name="pref_camera_whitebalance_entry_manual">手动</string>
+    <string name="pref_camera_whitebalance_entry_measure">测量</string>
+    <string name="pref_video_af_lock_title">录像时锁定对焦</string>
+    <string name="pref_video_af_lock_entry_off">关</string>
+    <string name="pref_video_af_lock_entry_on">开</string>
+    <string name="pref_video_zoom_title">录像时变焦</string>
+    <string name="pref_video_zoom_entry_off">关</string>
+    <string name="pref_video_zoom_entry_on">开</string>
+    <string name="pref_shutter_key_into_camera_title">相机按键</string>
+    <string name="pref_shutter_key_into_camera_entry_off">关</string>
+    <string name="pref_shutter_key_into_camera_entry_on">开</string>
+    <string name="pref_camera_shutter_sound_title">快门声音</string>
+    <string name="pref_camera_shutter_sound_entry_off">关</string>
+    <string name="pref_camera_shutter_sound_entry_on">开</string>
+    <string name="pref_camera_night_title">夜景</string>
+    <string name="pref_camera_night_off">关</string>
+    <string name="pref_camera_night_on">普通</string>
+    <string name="pref_camera_night_tripod">超强</string>
+    <string name="shutter_key_into_camera_title2">熄屏时长按相机按键启动相机</string>
+    <string name="measure_hints">用镜头对准白纸或者灰卡，点击按钮进行测量</string>
+    <string name="measure">测量</string>
+    <string name="measure_done">已完成测量</string>
+    <string name="video_editor_title">短视频编辑</string>
+    <string name="video_maker_tip">长按录像键开始拍摄，松开暂停拍摄</string>
+    <string name="video_maker_continue_tip">再次长按录像键可继续</string>
+    <string name="video_maker_saving_tip">图片正在保存，请稍后...</string>
+    <string name="loading_images">正在载入图片...</string>
+    <string name="background_music">声音</string>
+    <string name="original_sound">原声</string>
+    <string name="silence_sound">静音</string>
+    <string name="music_sound">音乐</string>
+    <string name="select_music">选择音乐</string>
+    <string name="video_maker_order">播放顺序</string>
+    <string name="video_maker_rewind">正序</string>
+    <string name="video_maker_unrewind">倒序</string>
+    <string name="video_maker_speed">播放速度</string>
+    <string name="image_duration_fast">快速</string>
+    <string name="image_duration_medium">中速</string>
+    <string name="image_duration_slow">慢速</string>
+    <string name="video_maker_export">导出短视频</string>
+    <string name="editor_import_audio">导入音乐</string>
+    <string name="video_maker_num_unit">%1$d张照片</string>
+    <string name="video_duration">时长 :</string>
+    <string name="editor_zero_time_stamp">00:00.0</string>
+    <string name="hours_and_minutes" formatted="false">%d 小时 %d 分钟</string>
+    <string name="hour_and_minutes">1 小时 %d 分钟</string>
+    <string name="minutes">%d 分钟</string>
+    <string name="minute_and_seconds">1 分 %d 秒</string>
+    <string name="seconds">%d 秒</string>
+    <string name="editor_storage_not_available">无法访问存储设备，因此无法创建项目</string>
+    <string name="editor_add_audio_track_error">无法添加该音轨</string>
+    <string name="editor_not_support_audio_track">不支持该格式的音轨，请重新选择</string>
+    <string name="editor_remove_audio_track_error">无法删除该音轨</string>
+    <string name="editor_create_error">由于出错而无法创建项目</string>
+    <string name="editor_export_error">由于出错而无法导出电影</string>
+    <string name="editor_release_error">出现错误，无法释放该项目</string>
+    <string name="editor_delete_error">出现错误，无法删除该项目</string>
+    <string name="editor_add_image_error">无法将该图片添加到您的项目</string>
+    <string name="editor_remove_media_item_error">无法删除该项</string>
+    <string name="editor_number_error">至少需要一张图片合成视频</string>
+    <string name="auto_focus">自动</string>
+    <string name="manual_focus">手动</string>
+    <string name="micro_focus">微距</string>
+    <string name="infinity_focus">无限远</string>
+    <string name="pip_color">彩色</string>
+    <string name="pip_video">录像</string>
+    <string name="pip_film">电影</string>
+    <string name="pip_stamp">印章</string>
+    <string name="pip_magazine">杂志</string>
+    <string name="setting_ios_01">-1</string>
+    <string name="setting_ios_1">1</string>
+    <string name="pref_camera_colorfilter_title">偏光滤镜</string>
+    <string name="pref_camera_colorfilter_none">无</string>
+    <string name="pref_camera_colorfilter_red">玫红</string>
+    <string name="pref_camera_colorfilter_orange">鲜橙</string>
+    <string name="pref_camera_colorfilter_yellow">桔黄</string>
+    <string name="pref_camera_colorfilter_green">草绿</string>
+    <string name="pref_camera_colorfilter_cyan">群青</string>
+    <string name="pref_camera_colorfilter_blue">海蓝</string>
+    <string name="pref_camera_colorfilter_purple">绯紫</string>
+    <string name="pref_camera_colorfilter_left_black">左暗</string>
+    <string name="pref_camera_colorfilter_right_black">右暗</string>
+    <string name="pref_camera_colorfilter_up_black">上暗</string>
+    <string name="pref_camera_colorfilter_down_black">下暗</string>
+    <string name="pref_camera_ae_lock_entry_off">自动</string>
+    <string name="pref_camera_ae_lock_entry_on">锁定</string>
+    <string name="pref_camera_af_lock_entry_off">自动</string>
+    <string name="pref_camera_af_lock_entry_on">锁定</string>
+    <string name="pref_camera_awb_lock_entry_off">自动</string>
+    <string name="pref_camera_awb_lock_entry_on">锁定</string>
+    <string name="object_clear_large_motion">检测到运动物体所占画面太大，请重新拍摄</string>
+    <string name="object_clear_no_remove_object">未发现运动的物体</string>
+    <string name="object_clear_tip">拍摄时拿稳手机</string>
+    <string name="object_clear_remove_tip">选择被移除对象</string>
+    <string name="pref_show_setting_status_title">显示拍摄参数</string>
+    <string name="setting_bsd_default">不锁定</string>
+    <string name="setting_sd_default">锁定</string>
+    <string name="setting_zd_default">自动</string>
+    <string name="setting_w_default">无</string>
+    <string name="multi_shoot_not_support">滤镜效果下不支持连拍</string>
+    <string name="pref_video_denoise_title">降噪</string>
+    <string name="pref_video_denoise_entry_off">关</string>
+    <string name="pref_video_denoise_entry_on">开</string>
+    <string name="pref_snapshot_mirror_entry_off">关</string>
+    <string name="pref_snapshot_mirror_entry_on">开</string>
+    <string name="pref_snapshot_mirror_title">拍照镜像</string>
+    <string name="pref_slow_shutter_title">单张曝光时间</string>
+    <string name="pref_camera_fno_title">光圈</string>
+    <string name="pref_interval_pro_title">定时时间</string>
+    <string name="pro_interval">定时时间: %d秒</string>
+    <string name="light_draw_taken">已拍:</string>
+    <string name="light_draw_wanted">张数:</string>
+    <string name="light_draw_fno">光圈:</string>
+    <string name="please_wait">处理中 …</string>
+    <string name="please_cancel_wait">取消中 …</string>
+    <string name="capturing">拍摄中…</string>
+    <string name="preparing">启动中…</string>
+    <string name="data_process">数据处理中 …</string>
+    <string name="pref_electronic_fno_title">电子光圈</string>
+    <string name="electronic_fno_title">电子光圈</string>
+    <string name="electronic_fno_compensation_title">快门补偿</string>
+    <string name="electronic_b_title">B门</string>
+    <string name="pref_camera_multishot_title">长按连拍</string>
+    <string name="pref_camera_multishot_off">关</string>
+    <string name="pref_camera_multishot_speed">速度优先</string>
+    <string name="pref_camera_multishot_quality">画质优先</string>
+    <string name="spaceIsLow_tip">存储空间不足</string>
+    <string name="light_draw_info">"拍摄时固定好相机，在黑暗环境下用
+手电筒等光源在空中画出想要的图案。"</string>
+    <string name="star_track_info">"在黑暗环境下使用三脚架拍摄
+无光污染的晴朗星空"</string>
+    <string name="stroage_eject_tip">SD卡不可用，已改为手机存储</string>
+    <string name="stroage_path_detail">是否将存储位置改为SD卡？</string>
+    <string name="pref_camera_fullscreen_picturesize_title">全屏</string>
+    <string name="pref_camera_interval_pro_title">间隔连拍</string>
+    <string name="pref_camera_intervalometer_title">延时设定</string>
+    <string name="pref_camera_interval_pro_entry_0">关</string>
+    <string name="b_shutter">B门</string>
+    <string name="auto">自动</string>
+    <string name="ztemt_cannot_connect_camera">请确保无其他应用占用相机，或尝试重启手机。</string>
+    <string name="ztemt_camera_error_title">相机不可用</string>
+    <string name="EV_title">EV</string>
+    <string name="ISO_title">ISO</string>
+    <string name="setting_color_filter_title">滤镜</string>
+    <string name="pintu_title">实时拼图</string>
+    <string name="pref_capture_camera_title">急速抓拍</string>
+    <string name="capture_camera_use_tip">不打开相机，通过双击音量键、蓝牙找寻器可快速抓拍</string>
+    <string name="capture_camera_use_toast">熄屏状态下双击音量键可完成抓拍</string>
+    <string name="capture_camera_close">关</string>
+    <string name="capture_camera_back">后摄像头</string>
+    <string name="capture_camera_front">前摄像头</string>
+    <string name="capture_camera_exposure">包围曝光</string>
+    <string name="capture_camera_exposure_tip">可拍摄3张不同曝光级别的图片</string>
+    <string name="capture_camera_exposure_count">可拍张数</string>
+    <string name="capture_camera_exposure_scope">曝光范围</string>
+    <string name="doc_panorama_tip">保持箭头在中心线上</string>
+    <string name="select_photo_tips">仅支持%s分辨率图片</string>
+    <string name="select_photo_tips2">所选图片不支持,请重新选择%s分辨率的图片</string>
+    <string name="hight_frame_rate_open_tip">已开启高速录像</string>
+    <string name="backpress_tip">请再次点击退出并保存视频</string>
+    <string name="tripod_capture_tips">建议使用三脚架拍摄</string>
+    <string name="hold_steadily_tips">拍摄时请拿稳手机</string>
+    <string name="fun_super_night_title">超强夜景</string>
+    <string name="slow_shutter">慢门</string>
+    <string name="exposure_time">曝光时间</string>
+    <string name="course_title">摄像技巧</string>
+    <string name="course_context">摄像技巧教你玩转nubia相机，用手机也能拍出精彩大片。</string>
+    <string name="course_select">不再显示</string>
+    <string name="course_cannel">以后再说</string>
+    <string name="course_sure">立即查看</string>
+    <string name="pro_normal_title">标准相机</string>
+    <string name="pro_electronic_fno_title">电子光圈</string>
+    <string name="pro_slow_shutter_title">慢门相机</string>
+    <string name="manual_focus_title">手动调焦</string>
+    <string name="fun_crystal_title">水晶相机</string>
+    <string name="pref_manual_focus_title">手动调焦</string>
+    <string name="pref_manual_focus_entry_on">开</string>
+    <string name="pref_manual_focus_entry_off">关</string>
+    <string name="pref_fengzhi_focus_title">景深预测</string>
+    <string name="pref_fengzhi_focus_entry_on">开</string>
+    <string name="pref_fengzhi_focus_entry_off">关</string>
+    <string name="pref_capture_focus_title">触屏快门</string>
+    <string name="pref_capture_focus_entry_on">开</string>
+    <string name="pref_capture_focus_entry_off">关</string>
+    <string name="slowshutter_time_s">秒钟</string>
+    <string name="slowshutter_time_m">分钟</string>
+    <string name="minutes_and_seconds" formatted="false">%s 分 %s 秒</string>
+    <string name="seconds_string">%s 秒</string>
+    <string name="specification_sure">我知道了</string>
+    <string name="specification_star_cloud_title">了解星云</string>
+    <string name="specification_star_cloud_context">"        星云模式通过长时间曝光来拍繁星银河。
+        尽量选择天气晴朗通透、银河明显的夜晚，在黑暗环境下使用三脚架拍摄。"</string>
+    <string name="specification_star_track_title">了解星轨</string>
+    <string name="specification_star_track_context">"        星轨模式通过长时间曝光来拍星星运动的轨迹。
+        尽量选择天气晴朗通透、星星多而亮的夜晚，在黑暗环境下使用三脚架拍摄。"</string>
+    <string name="specification_light_draw_title">了解光绘</string>
+    <string name="specification_light_draw_context">"        光绘模式通过长时间曝光来拍光源移动的轨迹。
+        在黑暗环境下拍摄。"</string>
+    <string name="specification_crystal_title">了解水晶</string>
+    <string name="specification_crystal_context">"        水晶模式适用于拍摄静止的物体，可以达到通透细致的效果。
+        需使用三脚架拍摄。"</string>
+    <string name="specification_electronic_title">了解电子光圈</string>
+    <string name="specification_electronic_context">"        电子光圈是一种光圈优先的拍摄模式，可以调节光圈的大小，相机自动调整快门速度。
+        适于拍摄静止的风景、夜景、静物或慢速运动物体。"</string>
+    <string name="specification_slow_shutter_title">了解慢门</string>
+    <string name="specification_slow_shutter_context">"        慢门是一种慢速快门的拍摄方法，可以调节不同的曝光时间。
+        适于拍摄光线不足的场景，具有动感的人物、车辆、雨雪等物体，以及飘渺的波浪、绚丽的光轨。"</string>
+    <string name="specification_feng_zhi_context_title">了解景深预测</string>
+    <string name="specification_feng_zhi_context">"        景深预测将同一景深范围内的物体对比度分明部分用红色线条勾勒表示，红色区域即是对焦清晰的部分。"</string>
+    <string name="interval_time_tips">间隔时间 %ss</string>
+    <string name="pref_camera_interval_pro_off">关</string>
+    <string name="pref_star_func_high_settings_title">高级设置</string>
+    <string name="new_message_tips">您有一条新信息！</string>
+    <string name="on">打开</string>
+    <string name="off">关闭</string>
+    <string name="delete">删除</string>
+    <string name="delete_selection">要删除所选内容吗？</string>
+    <string name="confirm">确认</string>
+    <string name="slide_to_delete">上/下滑动删除</string>
+    <string name="undo_delete">单击此处撤销删除</string>
+    <string name="camera_family_name">"nubia 
+相机家族"</string>
+    <string name="camera_family_neo_share">视界</string>
+    <string name="camera_family">相机家族</string>
+    <string name="camera_course">相机教程</string>
+    <string name="camera_course_name">"nubia 
+相机教程"</string>
+    <string name="install_neo_share">安装视界查看更多美图！</string>
+    <string name="install">安装</string>
+    <string name="no_add">未添加</string>
+    <string name="have_add">已添加</string>
+    <string name="add">添加</string>
+    <string name="remove_camera">移除相机</string>
+    <string name="camera_works">%1$s作品:</string>
+    <string name="see_more_course">查看更多教程</string>
+    <string name="camera_family_settled_tip">标准相机不能移动</string>
+    <string name="camera_family_remove_tip">确定删除%s相机吗？</string>
+    <string name="camera_family_this_tip">"长按小相机 
+\u0009\u0009\u0009\u0009可以进行排序"</string>
+    <string name="nubia_res_time_minute">分钟</string>
+    <string name="nubia_res_time_hour">小时</string>
+    <string name="nubia_res_time_second">秒</string>
+    <string name="not_avilable">不可操作</string>
+    <string name="ztemt_fun_effect">特效</string>
+    <string name="ztemt_effects_entry_negative_film">负片</string>
+    <string name="ztemt_effects_entry_sketch">素描</string>
+    <string name="ztemt_effects_entry_pink">紫色/粉色</string>
+    <string name="ztemt_effects_entry_sepia">老照片</string>
+    <string name="ztemt_effects_entry_area_effect">区域特效</string>
+    <string name="ztemt_effects_entry_rotate_effect">镜像</string>
+    <string name="ztemt_effects_entry_mosaic_effect">马赛克</string>
+    <string name="ztemt_effects_entry_emboss_effect">浮雕</string>
+    <string name="ztemt_effects_entry_summer_effect">夏日</string>
+    <string name="ztemt_effects_entry_colorpaint_effect">彩绘</string>
+    <string name="ztemt_effects_entry_Ocean_effect">海洋</string>
+    <string name="ztemt_effects_entry_newsketch_effect">彩描</string>
+    <string name="capture_finish">完成</string>
+    <string name="capture_cancel">取消</string>
+    <string name="permission_request">权限请求</string>
+    <string name="not_show_again">不再提示</string>
+    <string name="permission_forbid">禁止</string>
+    <string name="permission_allow">允许 (%1$d s)</string>
+    <string name="gallery_permission">\"相机\"请求手机联网并获取GPS、停用屏幕锁定、防止手机休眠权限，是否允许？</string>
+    <string name="start_time">拍摄开始时间</string>
+    <string name="stop_time">拍摄结束时间</string>
+    <string name="no_sdcard_toast">您还没有插入SD卡</string>
+    <string name="pref_camera_compass_key_title">罗盘</string>
+    <string name="please_take_2nd_picture">请拍摄第二张照片</string>
+    <string name="back_light_off_set">熄灭屏幕拍摄</string>
+    <string name="back_light_off_set_tip">"是否确认进行熄屏拍？
+熄屏拍不会影响拍摄进程，熄屏后可通过点击屏幕再次点亮屏幕。
+注：此时可以使用蓝牙耳机来控制熄屏和亮屏"</string>
+    <string name="settings_have_restored">设置项已恢复默认</string>
+    <string name="pref_camera_about_key_title">关于相机</string>
+    <string name="check_version">检测更新</string>
+    <string name="version">版本号</string>
+    <string name="pref_camera_siri_title">语音助手</string>
+    <string name="camera_about_upgrade_progress">正在获取版本信息</string>
+    <string name="camera_about_versions_find">发现新版本</string>
+    <string name="camera_about_versions_cancel">以后再说</string>
+    <string name="camera_about_versions_sure">立即升级</string>
+    <string name="check_version_error_network">网络连接出错，获取服务器版本失败</string>
+    <string name="check_version_error_server">服务器异常，获取服务器版本失败</string>
+    <string name="check_version_error_unknow">未知错误，获取服务器版本失败</string>
+    <string name="sdcard_not_available">外部存储设备不可用</string>
+    <string name="check_version_already_latest">当前已经是最新版本</string>
+    <string name="pick_photo_from_local">本地选择图片</string>
+    <string name="shutter">快门</string>
+    <string name="zoom">焦距调节</string>
+    <string name="volume">音量调节</string>
+    <string name="pref_camera_volume_key_title">音量键</string>
+    <string name="pref_camera_volume_key_default">shutter</string>
+    <string name="pref_camera_exposure_disable_key_title">测光方式</string>
+    <string name="pref_camera_autoexposure_entry_independent_exposure">独立测光</string>
+    <string name="ic_mode_pro">@drawable/ic_mode_pro_rcn</string>
+    <string name="icon_pro_select">@drawable/icon_pro_select_rcn</string>
+    <string name="demister">去雾相机</string>
+    <string name="demister_percent">去雾效果</string>
+    <string name="pref_camera_shutter_priority_key_title">快门优先</string>
+    <string name="phone_not_picture">您还没有拍摄照片</string>
+    <string name="multishoot_is_writing">连拍照片正在写入，请稍后再进行拍摄</string>
+    <string name="welcome_page1_tip1">更多的相机选择</string>
+    <string name="welcome_page1_tip2">超多相机选择，总有一款让你爱不释手</string>
+    <string name="welcome_page2_tip1">更强的专业模式</string>
+    <string name="welcome_page2_tip2">低调又强大的专业模式，让你随时变成摄影师</string>
+    <string name="other_settings_hide">隐藏其他设置</string>
+    <item type="string" name="APKTOOL_DUMMY_01a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_037c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_037d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_037e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_037f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0380">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0381">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0382">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0384">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0385">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0386">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0387">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0388">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0389">false</item>
+    <item type="string" name="APKTOOL_DUMMY_038a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_038b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_038c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_038d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_038e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_038f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0390">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0391">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0392">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0393">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0394">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0395">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0396">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0397">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0398">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0399">false</item>
+    <item type="string" name="APKTOOL_DUMMY_039a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_039b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_039c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_039d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_039e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_039f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03a0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03a1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03a3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03a4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03a5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03a6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03a7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03a8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03a9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03aa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03ab">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03ac">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03ad">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03ae">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03af">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03b0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03b1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03b2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03b3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03b4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03b5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03b7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03b8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03b9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03ba">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03bb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03bc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03bd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03be">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03bf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03c0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03c1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03c4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03c5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03c6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03c7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03c8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03c9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03ca">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03cb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03cd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03ce">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03cf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03d0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03d1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03d2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03d3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03d4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03d5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03d7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03d8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03d9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03da">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03db">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03dc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03dd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03de">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03df">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03e0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03e1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03eb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03ec">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03ed">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03ee">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03ef">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03f0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03f1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03f3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03f4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03f6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03f8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03f9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03fa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03fb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03fc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03fd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03fe">false</item>
+    <item type="string" name="APKTOOL_DUMMY_03ff">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0400">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0401">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0402">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0403">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0404">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0405">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0406">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0407">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0408">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0409">false</item>
+    <item type="string" name="APKTOOL_DUMMY_040a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_040b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_040c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_040d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_040e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_040f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0410">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0411">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0412">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0413">false</item>
+</resources>

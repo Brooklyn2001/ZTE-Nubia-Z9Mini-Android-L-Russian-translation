@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="package_upgrading_title">Android is upgrading…</string>
+    <string name="package_upgrading_apk">Optimizing app %1$d of %2$d.</string>
+    <string name="package_upgrading_complete">Finishing boot.</string>
+</resources>

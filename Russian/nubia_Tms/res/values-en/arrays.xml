@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="a">
+        <item>Default Skin</item>
+        <item>Classic Blue</item>
+    </string-array>
+    <string-array name="b">
+        <item>Classic Blue</item>
+        <item>Dalangtaosha</item>
+        <item>Taqing</item>
+    </string-array>
+    <string-array name="c">
+        <item>Classic Blue</item>
+    </string-array>
+    <string-array name="d">
+        <item>lsjd</item>
+        <item>night_mode</item>
+    </string-array>
+    <string-array name="e">
+        <item>blue</item>
+        <item>wp048</item>
+        <item>wp040</item>
+    </string-array>
+    <string-array name="f">
+        <item>blue</item>
+    </string-array>
+    <string-array name="g">
+        <item>skin_thumb_lsjd.jpg</item>
+        <item>skin_thumb_night_mode.jpg</item>
+    </string-array>
+    <string-array name="h">
+        <item>skin_thumb_blue.jpg</item>
+        <item>skin_thumb_048.webp</item>
+        <item>skin_thumb_040.webp</item>
+    </string-array>
+    <string-array name="i">
+        <item>skin_thumb_blue.jpg</item>
+    </string-array>
+    <string-array name="j">
+        <item>http://res.imtt.qq.com/skinconf/real/blue_530_20140620.qbs</item>
+        <item>http://res.imtt.qq.com/skinconf/real/wp048.qbs</item>
+        <item>http://res.imtt.qq.com/skinconf/real/wp040.qbs</item>
+    </string-array>
+    <string-array name="k">
+        <item>http://res.imtt.qq.com/skinconf/real/blue_530_20140620.qbs</item>
+    </string-array>
+    <integer-array name="l">
+        <item>25579</item>
+        <item>432224</item>
+        <item>176969</item>
+    </integer-array>
+    <integer-array name="m">
+        <item>25579</item>
+    </integer-array>
+    <integer-array name="n">
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>5</item>
+        <item>5</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="o">
+        <item>ScreenCut</item>
+        <item>Translation</item>
+        <item>Evernote</item>
+        <item>Periodic Refresh</item>
+        <item>Find within Webpage</item>
+        <item>Save to Tencent Cloud</item>
+        <item>GameZone</item>
+    </string-array>
+    <string-array name="p">
+        <item>http://soft.imtt.qq.com/browser/plugin/big_file/com.tencent.qb.plugin.screencut.jar</item>
+        <item>http://soft.imtt.qq.com/browser/plugin/big_file/com.tencent.qb.plugin.addondictjar.jar</item>
+        <item>http://soft.imtt.qq.com/browser/plugin/big_file/com.tencent.qb.plugin.evernote.jar</item>
+        <item>http://soft.imtt.qq.com/browser/plugin/big_file/com.tencent.qb.plugin.refresh.jar</item>
+        <item>qb://plugin/x5find</item>
+        <item>qb://plugin/docollect</item>
+        <item>http://soft.imtt.qq.com/browser/plugin/big_file/com.tencent.qb.plugin.plugingamezone.jar</item>
+    </string-array>
+    <integer-array name="q">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="r">
+        <item>com.tencent.qb.plugin.screencut</item>
+        <item>com.tencent.qb.plugin.addondictjar</item>
+        <item>com.tencent.qb.plugin.evernote</item>
+        <item>com.tencent.qb.plugin.refresh</item>
+        <item>com.tencent.qb.plugin.x5find</item>
+        <item>com.tencent.qb.plugin.docollect</item>
+        <item>com.tencent.qb.plugin.plugingamezone</item>
+    </string-array>
+    <integer-array name="s">
+        <item>155</item>
+        <item>143</item>
+        <item>155</item>
+        <item>155</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2538995</item>
+    </integer-array>
+    <string-array name="t">
+        <item>http://res.imtt.qq.com/plugin/file/screencut.png</item>
+        <item>http://res.imtt.qq.com/plugin/file/addondictjar.png</item>
+        <item>http://res.imtt.qq.com/plugin/file/evernote.png</item>
+        <item>http://res.imtt.qq.com/plugin/file/refresh.png</item>
+        <item>http://res.imtt.qq.com/plugin/file/within_page.png</item>
+        <item>http://res.imtt.qq.com/plugin/file/weisouc.png</item>
+        <item>http://res.imtt.qq.com/plugin/file/game.png</item>
+    </string-array>
+    <integer-array name="u">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="v">
+        <item>11072</item>
+        <item>11073</item>
+        <item>9494</item>
+        <item>9529</item>
+        <item>11237</item>
+        <item>13634</item>
+    </integer-array>
+    <string-array name="w">
+        <item>Exit &amp; clear browse history</item>
+        <item>Exit</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="x">
+        <item>OK</item>
+        <item>No more reminder</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="y">
+        <item>Install</item>
+        <item>"Don't show again"</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="z">
+        <item>Delete selected task</item>
+        <item>Delete selected tasks and files</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="a0">
+        <item>Clear all tasks</item>
+        <item>Clear all tasks and files</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="a1">
+        <item>Download</item>
+        <item>Safe Download</item>
+        <item>Save to Tencent Cloud</item>
+        <item>Open</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="a2">
+        <item>Download</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="a3">
+        <item>Save Again</item>
+        <item>Delete task</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="a4">
+        <item>Copy link</item>
+        <item>Delete</item>
+        <item>Share</item>
+    </string-array>
+    <string-array name="a5">
+        <item>Stream</item>
+        <item>Download</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="a6">
+        <item>@string/acc</item>
+        <item>@string/acd</item>
+        <item>@string/ace</item>
+        <item>@string/acf</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Call Ringtone</item>
+        <item>Alarm Ringtone</item>
+        <item>Notification Ringtone</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="a8">
+        <item>Try search for You Who Came from the Stars</item>
+        <item>"Try today's weather"</item>
+        <item>"Try nearby restaurants "</item>
+        <item>"Try today's news"</item>
+        <item>Try tell me a joke</item>
+        <item>"Try what is Tencent's stock price"</item>
+        <item>Try what movies have come out recently</item>
+    </string-array>
+    <string-array name="a9">
+        <item>Direct Access</item>
+        <item>Use Cloud Encryption Access</item>
+        <item>Cancel Access</item>
+    </string-array>
+    <string-array name="a_">
+        <item>No Images Ever</item>
+        <item>No Images Over Mobile Data Connection</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="aa">
+        <item>Direct Download</item>
+        <item>Download Using Another App</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Download</item>
+        <item>Open Seeds Using Another App</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="ac">
+        <item>Download</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="ad">
+        <item>Install</item>
+        <item>Download Using Another App</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="ae">
+        <item>Install</item>
+        <item>Open Seeds Using Another App</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="af">
+        <item>Install</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Coexist</item>
+        <item>Cover</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="x5_next_page_desc">
+        <item>下一页</item>
+        <item>下页</item>
+        <item>下章</item>
+        <item>下图</item>
+        <item>下一章</item>
+        <item>下一图</item>
+        <item>下一张</item>
+        <item>下一页></item>
+        <item>下一页 ></item>
+        <item>下一页 »</item>
+        <item>下一页>></item>
+        <item>[下页]</item>
+        <item>下页></item>
+        <item>[下一页]</item>
+        <item>[下一章]</item>
+        <item>【下一页】</item>
+        <item>【下页】</item>
+        <item>下一条</item>
+    </string-array>
+    <string-array name="x5_special_hosts">
+        <item>z.qq.com</item>
+        <item>mail.qq.com</item>
+        <item>3g.qq.com</item>
+    </string-array>
+    <string-array name="x5_readmode_share_dialog_options">
+        <item>Add to Tencent Cloud Favorites</item>
+        <item>Share</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Username</item>
+        <item>Nickname</item>
+        <item>Number</item>
+        <item>Mobile Phone Number</item>
+        <item>Email</item>
+        <item>Account</item>
+        <item>User</item>
+        <item>Passport</item>
+        <item>Member Name</item>
+        <item>user name</item>
+        <item>username</item>
+        <item>id</item>
+        <item>user</item>
+    </string-array>
+    <string-array name="ak">
+        <item>Login</item>
+        <item>Login</item>
+        <item>Submit</item>
+        <item>sign in</item>
+        <item>sign</item>
+        <item>ok</item>
+    </string-array>
+    <string-array name="al">
+        <item>Password</item>
+        <item>password</item>
+        <item>token</item>
+    </string-array>
+    <string-array name="am">
+        <item>Next</item>
+        <item>Next Page</item>
+        <item>[Next]</item>
+        <item>[Next Page]</item>
+        <item>[Next]</item>
+        <item>[Next Page]</item>
+        <item>Next</item>
+        <item>Next Chapter</item>
+        <item>Next</item>
+        <item>Next Picture</item>
+        <item>[Next Chapter]</item>
+    </string-array>
+    <string-array name="an">
+        <item>z.qq.com</item>
+        <item>3g.qq.com</item>
+        <item>mail.qq.com</item>
+    </string-array>
+    <string-array name="ao">
+        <item>Baidu</item>
+        <item>Sogou</item>
+        <item>Google</item>
+        <item>Soso</item>
+    </string-array>
+    <string-array name="ap">
+        <item>http://m.baidu.com/s?from=1086k&amp;word=</item>
+        <item>http://wap.sogou.com/web/searchList.jsp?keyword=</item>
+        <item>http://www.google.com.hk/m/search?hl=zh-CN&amp;ie=utf-8&amp;oe=utf-8&amp;q=</item>
+        <item>http://wap.soso.com/sweb/search.jsp?g_f=28282&amp;key=</item>
+    </string-array>
+    <string-array name="aq">
+        <item>baidu-page</item>
+        <item>sogou-page</item>
+        <item>google-page</item>
+        <item>soso-page</item>
+    </string-array>
+    <string-array name="ar">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="as">
+        <item>baidu-page</item>
+        <item>sogou-page</item>
+        <item>google-page</item>
+        <item>soso-page</item>
+    </string-array>
+    <string-array name="at">
+        <item>9350</item>
+        <item>9349</item>
+        <item>9351</item>
+        <item>9869</item>
+    </string-array>
+    <string-array name="au">
+        <item>Open in background</item>
+        <item>Cancel</item>
+        <item></item>
+    </string-array>
+    <string-array name="av">
+        <item>Complete</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="aw">
+        <item>Manage</item>
+        <item>Clear</item>
+        <item>Return</item>
+    </string-array>
+    <string-array name="ax">
+        <item>Manage</item>
+        <item>Clear</item>
+        <item>Return</item>
+    </string-array>
+    <string-array name="ay">
+        <item>Open in background</item>
+        <item>Move to</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="az">
+        <item>Complete</item>
+        <item></item>
+        <item>New folder</item>
+    </string-array>
+    <string-array name="b0">
+        <item>Complete</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="b1">
+        <item>Re-download</item>
+        <item>Save to network disk</item>
+        <item>Delete task</item>
+    </string-array>
+    <string-array name="b2">
+        <item></item>
+        <item></item>
+        <item>Return</item>
+    </string-array>
+    <string-array name="b3">
+        <item>Clear</item>
+        <item></item>
+        <item>Return</item>
+    </string-array>
+    <string-array name="b4">
+        <item></item>
+        <item></item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="b5">
+        <item>Complete</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="b6">
+        <item>Manage</item>
+        <item></item>
+        <item>Return</item>
+    </string-array>
+    <string-array name="b7">
+        <item>Loading</item>
+        <item>Loading</item>
+        <item>upload</item>
+        <item>Load</item>
+    </string-array>
+    <string-array name="b8">
+        <item>com.tencent.qqpimsecure</item>
+        <item>com.qihoo360.mobilesafe</item>
+        <item>com.qihoo360.mobilesafe.opti</item>
+        <item>cn.opda.a.phonoalbumshoushou</item>
+        <item>com.ijinshan.duba</item>
+        <item>com.qihoo.appstore</item>
+        <item>com.tencent.android.qqdownloader</item>
+        <item>com.infinit.wostore.ui</item>
+        <item>com.wandoujia.phoenix2</item>
+        <item>com.hiapk.marketpho</item>
+        <item>com.dragon.android.pandaspace</item>
+        <item>cn.goapk.market</item>
+        <item>com.android.vending</item>
+        <item>com.huawei.appmarket</item>
+        <item>com.aspire.mm</item>
+        <item>com.lenovo.leos.appstore</item>
+        <item>com.eshore.ezone</item>
+        <item>com.yingyonghui.market</item>
+        <item>com.sogou.appmall</item>
+        <item>com.sohu.inputmethod.sogou</item>
+        <item>com.baidu.searchbox</item>
+        <item>com.baidu.searchbox_sj</item>
+        <item>com.qihoo360.mobilesafe.opti.powerctl</item>
+        <item>com.tencent.token</item>
+        <item>com.tencent.qqpim</item>
+        <item>com.UCMobile.cmcc</item>
+        <item>com.baidu.browser.apps</item>
+        <item>com.qihoo.padbrowser</item>
+        <item>com.buzlylabs.chrome</item>
+        <item>com.oupeng.mini.android</item>
+        <item>mobi.mgeek.TunnyBrowser</item>
+        <item>com.opera.mini.android</item>
+        <item>com.tiantianmini.android.browser</item>
+        <item>com.erdo.android.FJDXCartoon</item>
+        <item>com.hisunflytone.android</item>
+        <item>cn.ibuka.manga.ui</item>
+        <item>com.baozoumanhua.android</item>
+        <item>com.qq.ac.android</item>
+        <item>com.u17.comic.phone</item>
+        <item>com.youku.phone</item>
+        <item>com.qvod.player</item>
+        <item>com.qiyi.video</item>
+        <item>com.tencent.qqlive</item>
+        <item>com.sohu.sohuvideo</item>
+        <item>com.baidu.video</item>
+        <item>com.storm.smart</item>
+        <item>tv.pps.mobile</item>
+        <item>com.pplive.androidphone</item>
+        <item>com.letv.android.client</item>
+        <item>com.tudou.android</item>
+        <item>com.cmcc.mobilevideo</item>
+        <item>com.funshion.video.mobile</item>
+        <item>com.kascend.video</item>
+        <item>com.chaozh.iReaderFree15</item>
+        <item>com.shuqi.controller</item>
+        <item>com.chaozh.iReaderFree</item>
+        <item>com.qq.reader</item>
+        <item>com.duokan.reader</item>
+        <item>com.nd.android.pandareader</item>
+        <item>cn.htjyb.reader</item>
+        <item>com.jiasoft.swreader</item>
+        <item>com.mybook66</item>
+        <item>com.anyview</item>
+        <item>com.qidian.QDReader</item>
+        <item>com.tencent.qqgame</item>
+        <item>com.xiaomi.gamecenter</item>
+        <item>cn.ninegame.gamemanager</item>
+        <item>com.muzhiwan.market</item>
+        <item>com.diguayouxi</item>
+        <item>com.m4399.gamecenter</item>
+        <item>com.ophone.reader.ui</item>
+        <item>com.mandi.lol</item>
+        <item>com.tencent.news</item>
+        <item>flipboard.cn</item>
+        <item>viva.reader</item>
+        <item>com.sohu.newsclient</item>
+        <item>com.ss.android.article.news</item>
+        <item>com.netease.newsreader.activity</item>
+        <item>com.netease.pris</item>
+        <item>oms.mspaces</item>
+        <item>com.sina.news</item>
+        <item>com.ifeng.news2</item>
+        <item>flipboard.app</item>
+        <item>com.baidu.news</item>
+        <item>com.cplatform.surfdesktop</item>
+        <item>com.myzaker.ZAKER_Phone</item>
+        <item>one.hh.oneclient</item>
+        <item>com.zol.android</item>
+        <item>com.zhihu.daily.android</item>
+        <item>com.google.android.apps.currents</item>
+        <item>com.xianguo.pad</item>
+        <item>com.xcar.activity</item>
+        <item>net.coollet.infzmreader</item>
+        <item>com.huanqiu.news</item>
+        <item>qsbk.app</item>
+        <item>com.ss.android.essay.joke</item>
+        <item>com.budejie.www</item>
+        <item>com.feibo.joke</item>
+        <item>com.coldworks.coldjoke</item>
+        <item>com.mobile17173.game</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.tencent.qq</item>
+        <item>com.tencent.mm</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>com.taobao.taobao</item>
+        <item>com.taobao.appcenter</item>
+        <item>com.sina.weibo</item>
+        <item>com.qzone</item>
+        <item>com.kugou.android</item>
+        <item>com.tencent.pao</item>
+    </string-array>
+    <string-array name="b9">
+        <item>Tencent Weibo Sharing</item>
+        <item>QQ Space Sharing</item>
+    </string-array>
+</resources>

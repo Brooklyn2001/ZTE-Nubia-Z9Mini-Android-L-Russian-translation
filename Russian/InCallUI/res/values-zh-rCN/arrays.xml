@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferred_network_mode_choices_lte_hide">
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>仅 EvDo</item>
+        <item>CDMA，无 EvDo 功能</item>
+        <item>CDMA/EvDo 自动选择</item>
+        <item>GSM/WCDMA 自动选择</item>
+        <item>仅 WCDMA</item>
+        <item>仅 GSM</item>
+        <item>首选 GSM/WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_all">
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA ，无 EvDo功能</item>
+        <item>CDMA/EvDo 自动选择</item>
+        <item>GSM/TD-SCDMA/WCDMA 自动选择</item>
+        <item>WCDMA/TD-SCDMA 自动选择</item>
+        <item>GSM/TD-SCDMA 自动选择</item>
+        <item>GSM/WCDMA 自动选择</item>
+        <item>仅 TD-SCDMA</item>
+        <item>仅 WCDMA</item>
+        <item>仅 GSM</item>
+        <item>首选 GSM/WCDMA/TD-SCDMA</item>
+        <item>首选 GSM/TD-SCDMA</item>
+        <item>首选 GSM/WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_ct">
+        <item>国际漫游模式</item>
+        <item>仅 EvDo</item>
+        <item>CDMA，无 EvDo 功能</item>
+        <item>CDMA/EvDo 自动选择</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_nx503a">
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA/EvDo 自动选择</item>
+        <item>GSM/WCDMA 自动选择</item>
+        <item>仅 CDMA</item>
+        <item>仅 WCDMA</item>
+        <item>仅 GSM</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_nx503d">
+        <item>GSM/TD-SCDMA 自动选择</item>
+        <item>仅 TD-SCDMA</item>
+        <item>仅 GSM</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_new_all">
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA/EvDo 自动选择</item>
+        <item>GSM/WCDMA 自动选择</item>
+        <item>GSM/TD-SCDMA 自动选择</item>
+        <item>仅 CDMA</item>
+        <item>仅 WCDMA</item>
+        <item>仅 TD-SCDMA</item>
+        <item>仅 GSM</item>
+    </string-array>
+</resources>

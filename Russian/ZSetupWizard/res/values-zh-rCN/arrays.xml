@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="date_format_values">
+        <item>月-日-年</item>
+        <item>日-月-年</item>
+        <item>年-月-日</item>
+    </string-array>
+</resources>

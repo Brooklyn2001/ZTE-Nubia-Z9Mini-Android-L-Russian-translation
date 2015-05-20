@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm_export_message">Your contact list will be exported to file: %s,the file is under root directory of SD card.</string>
+    <string name="profile_display_name">My profile</string>
+    <string name="dialog_voicemail_not_ready_message">To set up voicemail, go to Menu > Call settings.</string>
+    <string name="confirm_export_message_storage">Your contact list will be exported to file: %s,the file is under root directory of phone storage.</string>
+</resources>

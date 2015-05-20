@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ztouch_photo_select_warning">
+        <item>已选择了一张照片!</item>
+        <item>已选择了两张照片!</item>
+        <item>已选择了3张照片!</item>
+        <item>已选择了4张照片!</item>
+    </string-array>
+    <string-array name="move_items">
+        <item>剪切</item>
+        <item>复制</item>
+    </string-array>
+</resources>

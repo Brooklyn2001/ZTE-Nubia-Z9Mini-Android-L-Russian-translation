@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">个性海报</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="share">分享</string>
+    <string name="back">返回</string>
+    <string name="wait_a_moment">请稍等片刻..</string>
+    <string name="wait_a_moment2">正在生成图片..</string>
+    <string name="wait_a_moment3">正在保存图片..</string>
+    <string name="open_picture">正在打开图片</string>
+    <string name="reset">重置</string>
+    <string name="contentDescription">图片描述</string>
+    <string name="confirm_exit">返回确认</string>
+    <string name="confirm_discard_picture">确认要放弃所做的更改吗？</string>
+    <string name="save_tips_ex">图片已保存到同一相册</string>
+    <string name="stroage_full_tip">保存图片失败，存储空间可能已满。</string>
+    <string name="poster_edit_words">编辑文字</string>
+    <string name="poster_layout_vertical">垂直布局</string>
+    <string name="poster_layout_horizontal">水平布局</string>
+    <string name="bold">加粗</string>
+    <string name="shadow">投影</string>
+    <string name="composing">文字排版</string>
+    <string name="file_error">文件错误</string>
+    <string name="load_image_error">文件错误，无法打开。</string>
+</resources>

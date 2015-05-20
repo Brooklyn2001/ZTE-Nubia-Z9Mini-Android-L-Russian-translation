@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pickerNewContactText">新建联系人</string>
+    <string name="contactSavedToast">联系人已保存。</string>
+    <string name="confirm_export_message">系统会将您的联系人列表导出到以下文件：%s，该文件位于SD卡的根目录下。</string>
+    <string name="date_year_toggle">年份</string>
+    <string name="profile_display_name">机主信息</string>
+    <string name="dialog_voicemail_not_ready_message">要设置语音信箱，请转到“菜单”>“通话设置”。</string>
+    <string name="not_enough_space">手机空间不足，无法导出联系人</string>
+    <string name="confirm_export_message_storage">系统会将您的联系人列表导出到以下文件：%s，该文件位于手机存储目录下。</string>
+</resources>
